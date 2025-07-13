@@ -1,0 +1,1327 @@
+hal: Options:   -cdslib ./xcelium.d/run.lnx8664.20.09.d/cds.lib -logfile xrun.log -f /home/gin/Github/RTL_code/code/3.sim/xcelium.d/run.lnx8664.20.09.d/hal.args .
+hal: Snapshot:  worklib.full_adder_32bit:sv.
+hal: Workspace: /home/gin/Github/RTL_code/code/3.sim.
+hal: Date: Sun Apr 20 16:52:37 +07 2025.
+hal: Running on elaborated SNAPSHOT.....
+hal: *M,_SCOPE: __dummy_top
+halcheck: *M,_SCOPE: full_adder_32bit
+halcheck: *N,PRTCNT (../1.src/full_adder_32bit.sv,1|0): Module/Entity 'full_adder_32bit' contains '5' ports.
+halcheck: (../1.src/full_adder_32bit.sv,1): Number of Input ports: 3.
+halcheck: (../1.src/full_adder_32bit.sv,1): Number of Output ports: 2.
+halcheck: *W,STYVAL (../1.src/full_adder_32bit.sv,2|0): Numeric value '31' used for identifier 'A'. Use constants to avoid portability issues.
+halcheck: *N,DECLIN (../1.src/full_adder_32bit.sv,2|0): Use a separate line for each HDL declaration.
+halcheck: *W,STYVAL (../1.src/full_adder_32bit.sv,4|0): Numeric value '31' used for identifier 'sum'. Use constants to avoid portability issues.
+halcheck: *W,LCVARN (../1.src/full_adder_32bit.sv,2|0): Net name 'A' uses uppercase characters.
+halcheck: *W,LCVARN (../1.src/full_adder_32bit.sv,2|0): Net name 'B' uses uppercase characters.
+halcheck: *W,STYVAL (../1.src/full_adder_32bit.sv,7|0): Numeric value '30' used for identifier 'c'. Use constants to avoid portability issues.
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,10|0): Identifier name 'fa0' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa0
+halcheck: *N,PRTCNT (../1.src/full_adder.sv,1|0): Module/Entity 'full_adder' contains '5' ports.
+halcheck: (../1.src/full_adder.sv,1): Number of Input ports: 3.
+halcheck: (../1.src/full_adder.sv,1): Number of Output ports: 2.
+halcheck: *N,DECLIN (../1.src/full_adder.sv,3|0): Use a separate line for each HDL declaration.
+halcheck: *N,DECLIN (../1.src/full_adder.sv,5|0): Use a separate line for each HDL declaration.
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,19|0): Identifier name 'fa1' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa1
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,26|0): Identifier name 'fa2' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa2
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,33|0): Identifier name 'fa3' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa3
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,40|0): Identifier name 'fa4' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa4
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,47|0): Identifier name 'fa5' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa5
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,55|0): Identifier name 'fa6' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa6
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,63|0): Identifier name 'fa7' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa7
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,71|0): Identifier name 'fa8' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit.fa8
+halcheck: *N,IDLENG (../1.src/full_adder_32bit.sv,79|0): Identifier name 'fa9' is not of appropriate length (4 to 16 characters).
+halcheck: *M,_SCOPE: full_adder_32bit
+halcheck: Total errors   = 0.
+halcheck: Total warnings = 5.
+hal: *M,_SCOPE: __dummy_top
+halsynth: Loading design snapshot....
+halsynth: Traversing design hierarchy....
+~:CLKOUT
+~:CLKSRD
+~:COMBLP
+~:INPOUT
+~:MUDREG
+~:MULWIR
+~:UNDRIV
+halsynth: *M,_SCOPE: full_adder_32bit
+halsynth: Total errors   = 0.
+halsynth: Total warnings = 0.
+hal: *M,_SCOPE: __dummy_top
+halstruct: *M,_SCOPE: full_adder_32bit
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,10|0): Output 'sum[0]' of top-level module is not a register.
+@:sum[0] 
+@:fa0 
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,19|0): Output 'sum[1]' of top-level module is not a register.
+@:sum[1] 
+@:fa1 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,19|0): Combinatorial path crossing multiple units drives 'sum[1]'.
+@:sum[1] 
+@:sum_o full_adder_32bit.fa1
+@:$$cpiHT_56_1800 full_adder_32bit.fa1
+@:cin_i full_adder_32bit.fa1
+@:c[0] 
+@:cout_o full_adder_32bit.fa0
+@:$$cpiHT_56_1728 full_adder_32bit.fa0
+halstruct: (../1.src/full_adder_32bit.sv,19): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa1' drives 'sum[1]'.
+@:sum[1] 
+@:sum[1] 
+@:sum[1] 
+@:sum_o full_adder_32bit.fa1
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa1', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa1
+@:cin_i full_adder_32bit.fa1
+halstruct: (../1.src/full_adder_32bit.sv,19): in instance 'full_adder_32bit', 'c[0]' drives input 'cin_i' of instance 'fa1'.
+@:c[0] 
+halstruct: (../1.src/full_adder_32bit.sv,10): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa0' drives 'c[0]'.
+@:c[0] 
+@:c[0] 
+@:c[0] 
+@:cout_o full_adder_32bit.fa0
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa0', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa0
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,26|0): Output 'sum[2]' of top-level module is not a register.
+@:sum[2] 
+@:fa2 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,26|0): Combinatorial path crossing multiple units drives 'sum[2]'.
+@:sum[2] 
+@:sum_o full_adder_32bit.fa2
+@:$$cpiHT_56_1800 full_adder_32bit.fa2
+@:cin_i full_adder_32bit.fa2
+@:c[1] 
+@:cout_o full_adder_32bit.fa1
+@:$$cpiHT_56_1728 full_adder_32bit.fa1
+halstruct: (../1.src/full_adder_32bit.sv,26): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa2' drives 'sum[2]'.
+@:sum[2] 
+@:sum[2] 
+@:sum[2] 
+@:sum_o full_adder_32bit.fa2
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa2', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa2
+@:cin_i full_adder_32bit.fa2
+halstruct: (../1.src/full_adder_32bit.sv,26): in instance 'full_adder_32bit', 'c[1]' drives input 'cin_i' of instance 'fa2'.
+@:c[1] 
+halstruct: (../1.src/full_adder_32bit.sv,19): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa1' drives 'c[1]'.
+@:c[1] 
+@:c[1] 
+@:c[1] 
+@:cout_o full_adder_32bit.fa1
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa1', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa1
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,33|0): Output 'sum[3]' of top-level module is not a register.
+@:sum[3] 
+@:fa3 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,33|0): Combinatorial path crossing multiple units drives 'sum[3]'.
+@:sum[3] 
+@:sum_o full_adder_32bit.fa3
+@:$$cpiHT_56_1800 full_adder_32bit.fa3
+@:cin_i full_adder_32bit.fa3
+@:c[2] 
+@:cout_o full_adder_32bit.fa2
+@:$$cpiHT_56_1728 full_adder_32bit.fa2
+halstruct: (../1.src/full_adder_32bit.sv,33): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa3' drives 'sum[3]'.
+@:sum[3] 
+@:sum[3] 
+@:sum[3] 
+@:sum_o full_adder_32bit.fa3
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa3', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa3
+@:cin_i full_adder_32bit.fa3
+halstruct: (../1.src/full_adder_32bit.sv,33): in instance 'full_adder_32bit', 'c[2]' drives input 'cin_i' of instance 'fa3'.
+@:c[2] 
+halstruct: (../1.src/full_adder_32bit.sv,26): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa2' drives 'c[2]'.
+@:c[2] 
+@:c[2] 
+@:c[2] 
+@:cout_o full_adder_32bit.fa2
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa2', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa2
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,40|0): Output 'sum[4]' of top-level module is not a register.
+@:sum[4] 
+@:fa4 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,40|0): Combinatorial path crossing multiple units drives 'sum[4]'.
+@:sum[4] 
+@:sum_o full_adder_32bit.fa4
+@:$$cpiHT_56_1800 full_adder_32bit.fa4
+@:cin_i full_adder_32bit.fa4
+@:c[3] 
+@:cout_o full_adder_32bit.fa3
+@:$$cpiHT_56_1728 full_adder_32bit.fa3
+halstruct: (../1.src/full_adder_32bit.sv,40): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa4' drives 'sum[4]'.
+@:sum[4] 
+@:sum[4] 
+@:sum[4] 
+@:sum_o full_adder_32bit.fa4
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa4', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa4
+@:cin_i full_adder_32bit.fa4
+halstruct: (../1.src/full_adder_32bit.sv,40): in instance 'full_adder_32bit', 'c[3]' drives input 'cin_i' of instance 'fa4'.
+@:c[3] 
+halstruct: (../1.src/full_adder_32bit.sv,33): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa3' drives 'c[3]'.
+@:c[3] 
+@:c[3] 
+@:c[3] 
+@:cout_o full_adder_32bit.fa3
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa3', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa3
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,47|0): Output 'sum[5]' of top-level module is not a register.
+@:sum[5] 
+@:fa5 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,47|0): Combinatorial path crossing multiple units drives 'sum[5]'.
+@:sum[5] 
+@:sum_o full_adder_32bit.fa5
+@:$$cpiHT_56_1800 full_adder_32bit.fa5
+@:cin_i full_adder_32bit.fa5
+@:c[4] 
+@:cout_o full_adder_32bit.fa4
+@:$$cpiHT_56_1728 full_adder_32bit.fa4
+halstruct: (../1.src/full_adder_32bit.sv,47): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa5' drives 'sum[5]'.
+@:sum[5] 
+@:sum[5] 
+@:sum[5] 
+@:sum_o full_adder_32bit.fa5
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa5', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa5
+@:cin_i full_adder_32bit.fa5
+halstruct: (../1.src/full_adder_32bit.sv,47): in instance 'full_adder_32bit', 'c[4]' drives input 'cin_i' of instance 'fa5'.
+@:c[4] 
+halstruct: (../1.src/full_adder_32bit.sv,40): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa4' drives 'c[4]'.
+@:c[4] 
+@:c[4] 
+@:c[4] 
+@:cout_o full_adder_32bit.fa4
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa4', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa4
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,55|0): Output 'sum[6]' of top-level module is not a register.
+@:sum[6] 
+@:fa6 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,55|0): Combinatorial path crossing multiple units drives 'sum[6]'.
+@:sum[6] 
+@:sum_o full_adder_32bit.fa6
+@:$$cpiHT_56_1800 full_adder_32bit.fa6
+@:cin_i full_adder_32bit.fa6
+@:c[5] 
+@:cout_o full_adder_32bit.fa5
+@:$$cpiHT_56_1728 full_adder_32bit.fa5
+halstruct: (../1.src/full_adder_32bit.sv,55): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa6' drives 'sum[6]'.
+@:sum[6] 
+@:sum[6] 
+@:sum[6] 
+@:sum_o full_adder_32bit.fa6
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa6', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa6
+@:cin_i full_adder_32bit.fa6
+halstruct: (../1.src/full_adder_32bit.sv,55): in instance 'full_adder_32bit', 'c[5]' drives input 'cin_i' of instance 'fa6'.
+@:c[5] 
+halstruct: (../1.src/full_adder_32bit.sv,47): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa5' drives 'c[5]'.
+@:c[5] 
+@:c[5] 
+@:c[5] 
+@:cout_o full_adder_32bit.fa5
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa5', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa5
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,63|0): Output 'sum[7]' of top-level module is not a register.
+@:sum[7] 
+@:fa7 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,63|0): Combinatorial path crossing multiple units drives 'sum[7]'.
+@:sum[7] 
+@:sum_o full_adder_32bit.fa7
+@:$$cpiHT_56_1800 full_adder_32bit.fa7
+@:cin_i full_adder_32bit.fa7
+@:c[6] 
+@:cout_o full_adder_32bit.fa6
+@:$$cpiHT_56_1728 full_adder_32bit.fa6
+halstruct: (../1.src/full_adder_32bit.sv,63): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa7' drives 'sum[7]'.
+@:sum[7] 
+@:sum[7] 
+@:sum[7] 
+@:sum_o full_adder_32bit.fa7
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa7', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa7
+@:cin_i full_adder_32bit.fa7
+halstruct: (../1.src/full_adder_32bit.sv,63): in instance 'full_adder_32bit', 'c[6]' drives input 'cin_i' of instance 'fa7'.
+@:c[6] 
+halstruct: (../1.src/full_adder_32bit.sv,55): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa6' drives 'c[6]'.
+@:c[6] 
+@:c[6] 
+@:c[6] 
+@:cout_o full_adder_32bit.fa6
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa6', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa6
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,71|0): Output 'sum[8]' of top-level module is not a register.
+@:sum[8] 
+@:fa8 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,71|0): Combinatorial path crossing multiple units drives 'sum[8]'.
+@:sum[8] 
+@:sum_o full_adder_32bit.fa8
+@:$$cpiHT_56_1800 full_adder_32bit.fa8
+@:cin_i full_adder_32bit.fa8
+@:c[7] 
+@:cout_o full_adder_32bit.fa7
+@:$$cpiHT_56_1728 full_adder_32bit.fa7
+halstruct: (../1.src/full_adder_32bit.sv,71): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa8' drives 'sum[8]'.
+@:sum[8] 
+@:sum[8] 
+@:sum[8] 
+@:sum_o full_adder_32bit.fa8
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa8', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa8
+@:cin_i full_adder_32bit.fa8
+halstruct: (../1.src/full_adder_32bit.sv,71): in instance 'full_adder_32bit', 'c[7]' drives input 'cin_i' of instance 'fa8'.
+@:c[7] 
+halstruct: (../1.src/full_adder_32bit.sv,63): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa7' drives 'c[7]'.
+@:c[7] 
+@:c[7] 
+@:c[7] 
+@:cout_o full_adder_32bit.fa7
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa7', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa7
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,79|0): Output 'sum[9]' of top-level module is not a register.
+@:sum[9] 
+@:fa9 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,79|0): Combinatorial path crossing multiple units drives 'sum[9]'.
+@:sum[9] 
+@:sum_o full_adder_32bit.fa9
+@:$$cpiHT_56_1800 full_adder_32bit.fa9
+@:cin_i full_adder_32bit.fa9
+@:c[8] 
+@:cout_o full_adder_32bit.fa8
+@:$$cpiHT_56_1728 full_adder_32bit.fa8
+halstruct: (../1.src/full_adder_32bit.sv,79): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa9' drives 'sum[9]'.
+@:sum[9] 
+@:sum[9] 
+@:sum[9] 
+@:sum_o full_adder_32bit.fa9
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa9', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa9
+@:cin_i full_adder_32bit.fa9
+halstruct: (../1.src/full_adder_32bit.sv,79): in instance 'full_adder_32bit', 'c[8]' drives input 'cin_i' of instance 'fa9'.
+@:c[8] 
+halstruct: (../1.src/full_adder_32bit.sv,71): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa8' drives 'c[8]'.
+@:c[8] 
+@:c[8] 
+@:c[8] 
+@:cout_o full_adder_32bit.fa8
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa8', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa8
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,87|0): Output 'sum[10]' of top-level module is not a register.
+@:sum[10] 
+@:fa10 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,87|0): Combinatorial path crossing multiple units drives 'sum[10]'.
+@:sum[10] 
+@:sum_o full_adder_32bit.fa10
+@:$$cpiHT_56_1800 full_adder_32bit.fa10
+@:cin_i full_adder_32bit.fa10
+@:c[9] 
+@:cout_o full_adder_32bit.fa9
+@:$$cpiHT_56_1728 full_adder_32bit.fa9
+halstruct: (../1.src/full_adder_32bit.sv,87): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa10' drives 'sum[10]'.
+@:sum[10] 
+@:sum[10] 
+@:sum[10] 
+@:sum_o full_adder_32bit.fa10
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa10', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa10
+@:cin_i full_adder_32bit.fa10
+halstruct: (../1.src/full_adder_32bit.sv,87): in instance 'full_adder_32bit', 'c[9]' drives input 'cin_i' of instance 'fa10'.
+@:c[9] 
+halstruct: (../1.src/full_adder_32bit.sv,79): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa9' drives 'c[9]'.
+@:c[9] 
+@:c[9] 
+@:c[9] 
+@:cout_o full_adder_32bit.fa9
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa9', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa9
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,95|0): Output 'sum[11]' of top-level module is not a register.
+@:sum[11] 
+@:fa11 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,95|0): Combinatorial path crossing multiple units drives 'sum[11]'.
+@:sum[11] 
+@:sum_o full_adder_32bit.fa11
+@:$$cpiHT_56_1800 full_adder_32bit.fa11
+@:cin_i full_adder_32bit.fa11
+@:c[10] 
+@:cout_o full_adder_32bit.fa10
+@:$$cpiHT_56_1728 full_adder_32bit.fa10
+halstruct: (../1.src/full_adder_32bit.sv,95): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa11' drives 'sum[11]'.
+@:sum[11] 
+@:sum[11] 
+@:sum[11] 
+@:sum_o full_adder_32bit.fa11
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa11', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa11
+@:cin_i full_adder_32bit.fa11
+halstruct: (../1.src/full_adder_32bit.sv,95): in instance 'full_adder_32bit', 'c[10]' drives input 'cin_i' of instance 'fa11'.
+@:c[10] 
+halstruct: (../1.src/full_adder_32bit.sv,87): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa10' drives 'c[10]'.
+@:c[10] 
+@:c[10] 
+@:c[10] 
+@:cout_o full_adder_32bit.fa10
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa10', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa10
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,103|0): Output 'sum[12]' of top-level module is not a register.
+@:sum[12] 
+@:fa12 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,103|0): Combinatorial path crossing multiple units drives 'sum[12]'.
+@:sum[12] 
+@:sum_o full_adder_32bit.fa12
+@:$$cpiHT_56_1800 full_adder_32bit.fa12
+@:cin_i full_adder_32bit.fa12
+@:c[11] 
+@:cout_o full_adder_32bit.fa11
+@:$$cpiHT_56_1728 full_adder_32bit.fa11
+halstruct: (../1.src/full_adder_32bit.sv,103): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa12' drives 'sum[12]'.
+@:sum[12] 
+@:sum[12] 
+@:sum[12] 
+@:sum_o full_adder_32bit.fa12
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa12', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa12
+@:cin_i full_adder_32bit.fa12
+halstruct: (../1.src/full_adder_32bit.sv,103): in instance 'full_adder_32bit', 'c[11]' drives input 'cin_i' of instance 'fa12'.
+@:c[11] 
+halstruct: (../1.src/full_adder_32bit.sv,95): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa11' drives 'c[11]'.
+@:c[11] 
+@:c[11] 
+@:c[11] 
+@:cout_o full_adder_32bit.fa11
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa11', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa11
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,111|0): Output 'sum[13]' of top-level module is not a register.
+@:sum[13] 
+@:fa13 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,111|0): Combinatorial path crossing multiple units drives 'sum[13]'.
+@:sum[13] 
+@:sum_o full_adder_32bit.fa13
+@:$$cpiHT_56_1800 full_adder_32bit.fa13
+@:cin_i full_adder_32bit.fa13
+@:c[12] 
+@:cout_o full_adder_32bit.fa12
+@:$$cpiHT_56_1728 full_adder_32bit.fa12
+halstruct: (../1.src/full_adder_32bit.sv,111): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa13' drives 'sum[13]'.
+@:sum[13] 
+@:sum[13] 
+@:sum[13] 
+@:sum_o full_adder_32bit.fa13
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa13', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa13
+@:cin_i full_adder_32bit.fa13
+halstruct: (../1.src/full_adder_32bit.sv,111): in instance 'full_adder_32bit', 'c[12]' drives input 'cin_i' of instance 'fa13'.
+@:c[12] 
+halstruct: (../1.src/full_adder_32bit.sv,103): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa12' drives 'c[12]'.
+@:c[12] 
+@:c[12] 
+@:c[12] 
+@:cout_o full_adder_32bit.fa12
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa12', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa12
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,119|0): Output 'sum[14]' of top-level module is not a register.
+@:sum[14] 
+@:fa14 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,119|0): Combinatorial path crossing multiple units drives 'sum[14]'.
+@:sum[14] 
+@:sum_o full_adder_32bit.fa14
+@:$$cpiHT_56_1800 full_adder_32bit.fa14
+@:cin_i full_adder_32bit.fa14
+@:c[13] 
+@:cout_o full_adder_32bit.fa13
+@:$$cpiHT_56_1728 full_adder_32bit.fa13
+halstruct: (../1.src/full_adder_32bit.sv,119): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa14' drives 'sum[14]'.
+@:sum[14] 
+@:sum[14] 
+@:sum[14] 
+@:sum_o full_adder_32bit.fa14
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa14', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa14
+@:cin_i full_adder_32bit.fa14
+halstruct: (../1.src/full_adder_32bit.sv,119): in instance 'full_adder_32bit', 'c[13]' drives input 'cin_i' of instance 'fa14'.
+@:c[13] 
+halstruct: (../1.src/full_adder_32bit.sv,111): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa13' drives 'c[13]'.
+@:c[13] 
+@:c[13] 
+@:c[13] 
+@:cout_o full_adder_32bit.fa13
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa13', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa13
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,127|0): Output 'sum[15]' of top-level module is not a register.
+@:sum[15] 
+@:fa15 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,127|0): Combinatorial path crossing multiple units drives 'sum[15]'.
+@:sum[15] 
+@:sum_o full_adder_32bit.fa15
+@:$$cpiHT_56_1800 full_adder_32bit.fa15
+@:cin_i full_adder_32bit.fa15
+@:c[14] 
+@:cout_o full_adder_32bit.fa14
+@:$$cpiHT_56_1728 full_adder_32bit.fa14
+halstruct: (../1.src/full_adder_32bit.sv,127): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa15' drives 'sum[15]'.
+@:sum[15] 
+@:sum[15] 
+@:sum[15] 
+@:sum_o full_adder_32bit.fa15
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa15', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa15
+@:cin_i full_adder_32bit.fa15
+halstruct: (../1.src/full_adder_32bit.sv,127): in instance 'full_adder_32bit', 'c[14]' drives input 'cin_i' of instance 'fa15'.
+@:c[14] 
+halstruct: (../1.src/full_adder_32bit.sv,119): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa14' drives 'c[14]'.
+@:c[14] 
+@:c[14] 
+@:c[14] 
+@:cout_o full_adder_32bit.fa14
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa14', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa14
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,135|0): Output 'sum[16]' of top-level module is not a register.
+@:sum[16] 
+@:fa16 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,135|0): Combinatorial path crossing multiple units drives 'sum[16]'.
+@:sum[16] 
+@:sum_o full_adder_32bit.fa16
+@:$$cpiHT_56_1800 full_adder_32bit.fa16
+@:cin_i full_adder_32bit.fa16
+@:c[15] 
+@:cout_o full_adder_32bit.fa15
+@:$$cpiHT_56_1728 full_adder_32bit.fa15
+halstruct: (../1.src/full_adder_32bit.sv,135): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa16' drives 'sum[16]'.
+@:sum[16] 
+@:sum[16] 
+@:sum[16] 
+@:sum_o full_adder_32bit.fa16
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa16', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa16
+@:cin_i full_adder_32bit.fa16
+halstruct: (../1.src/full_adder_32bit.sv,135): in instance 'full_adder_32bit', 'c[15]' drives input 'cin_i' of instance 'fa16'.
+@:c[15] 
+halstruct: (../1.src/full_adder_32bit.sv,127): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa15' drives 'c[15]'.
+@:c[15] 
+@:c[15] 
+@:c[15] 
+@:cout_o full_adder_32bit.fa15
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa15', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa15
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,143|0): Output 'sum[17]' of top-level module is not a register.
+@:sum[17] 
+@:fa17 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,143|0): Combinatorial path crossing multiple units drives 'sum[17]'.
+@:sum[17] 
+@:sum_o full_adder_32bit.fa17
+@:$$cpiHT_56_1800 full_adder_32bit.fa17
+@:cin_i full_adder_32bit.fa17
+@:c[16] 
+@:cout_o full_adder_32bit.fa16
+@:$$cpiHT_56_1728 full_adder_32bit.fa16
+halstruct: (../1.src/full_adder_32bit.sv,143): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa17' drives 'sum[17]'.
+@:sum[17] 
+@:sum[17] 
+@:sum[17] 
+@:sum_o full_adder_32bit.fa17
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa17', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa17
+@:cin_i full_adder_32bit.fa17
+halstruct: (../1.src/full_adder_32bit.sv,143): in instance 'full_adder_32bit', 'c[16]' drives input 'cin_i' of instance 'fa17'.
+@:c[16] 
+halstruct: (../1.src/full_adder_32bit.sv,135): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa16' drives 'c[16]'.
+@:c[16] 
+@:c[16] 
+@:c[16] 
+@:cout_o full_adder_32bit.fa16
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa16', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa16
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,150|0): Output 'sum[18]' of top-level module is not a register.
+@:sum[18] 
+@:fa18 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,150|0): Combinatorial path crossing multiple units drives 'sum[18]'.
+@:sum[18] 
+@:sum_o full_adder_32bit.fa18
+@:$$cpiHT_56_1800 full_adder_32bit.fa18
+@:cin_i full_adder_32bit.fa18
+@:c[17] 
+@:cout_o full_adder_32bit.fa17
+@:$$cpiHT_56_1728 full_adder_32bit.fa17
+halstruct: (../1.src/full_adder_32bit.sv,150): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa18' drives 'sum[18]'.
+@:sum[18] 
+@:sum[18] 
+@:sum[18] 
+@:sum_o full_adder_32bit.fa18
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa18', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa18
+@:cin_i full_adder_32bit.fa18
+halstruct: (../1.src/full_adder_32bit.sv,150): in instance 'full_adder_32bit', 'c[17]' drives input 'cin_i' of instance 'fa18'.
+@:c[17] 
+halstruct: (../1.src/full_adder_32bit.sv,143): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa17' drives 'c[17]'.
+@:c[17] 
+@:c[17] 
+@:c[17] 
+@:cout_o full_adder_32bit.fa17
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa17', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa17
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,157|0): Output 'sum[19]' of top-level module is not a register.
+@:sum[19] 
+@:fa19 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,157|0): Combinatorial path crossing multiple units drives 'sum[19]'.
+@:sum[19] 
+@:sum_o full_adder_32bit.fa19
+@:$$cpiHT_56_1800 full_adder_32bit.fa19
+@:cin_i full_adder_32bit.fa19
+@:c[18] 
+@:cout_o full_adder_32bit.fa18
+@:$$cpiHT_56_1728 full_adder_32bit.fa18
+halstruct: (../1.src/full_adder_32bit.sv,157): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa19' drives 'sum[19]'.
+@:sum[19] 
+@:sum[19] 
+@:sum[19] 
+@:sum_o full_adder_32bit.fa19
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa19', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa19
+@:cin_i full_adder_32bit.fa19
+halstruct: (../1.src/full_adder_32bit.sv,157): in instance 'full_adder_32bit', 'c[18]' drives input 'cin_i' of instance 'fa19'.
+@:c[18] 
+halstruct: (../1.src/full_adder_32bit.sv,150): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa18' drives 'c[18]'.
+@:c[18] 
+@:c[18] 
+@:c[18] 
+@:cout_o full_adder_32bit.fa18
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa18', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa18
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,165|0): Output 'sum[20]' of top-level module is not a register.
+@:sum[20] 
+@:fa20 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,165|0): Combinatorial path crossing multiple units drives 'sum[20]'.
+@:sum[20] 
+@:sum_o full_adder_32bit.fa20
+@:$$cpiHT_56_1800 full_adder_32bit.fa20
+@:cin_i full_adder_32bit.fa20
+@:c[19] 
+@:cout_o full_adder_32bit.fa19
+@:$$cpiHT_56_1728 full_adder_32bit.fa19
+halstruct: (../1.src/full_adder_32bit.sv,165): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa20' drives 'sum[20]'.
+@:sum[20] 
+@:sum[20] 
+@:sum[20] 
+@:sum_o full_adder_32bit.fa20
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa20', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa20
+@:cin_i full_adder_32bit.fa20
+halstruct: (../1.src/full_adder_32bit.sv,165): in instance 'full_adder_32bit', 'c[19]' drives input 'cin_i' of instance 'fa20'.
+@:c[19] 
+halstruct: (../1.src/full_adder_32bit.sv,157): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa19' drives 'c[19]'.
+@:c[19] 
+@:c[19] 
+@:c[19] 
+@:cout_o full_adder_32bit.fa19
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa19', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa19
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,173|0): Output 'sum[21]' of top-level module is not a register.
+@:sum[21] 
+@:fa21 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,173|0): Combinatorial path crossing multiple units drives 'sum[21]'.
+@:sum[21] 
+@:sum_o full_adder_32bit.fa21
+@:$$cpiHT_56_1800 full_adder_32bit.fa21
+@:cin_i full_adder_32bit.fa21
+@:c[20] 
+@:cout_o full_adder_32bit.fa20
+@:$$cpiHT_56_1728 full_adder_32bit.fa20
+halstruct: (../1.src/full_adder_32bit.sv,173): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa21' drives 'sum[21]'.
+@:sum[21] 
+@:sum[21] 
+@:sum[21] 
+@:sum_o full_adder_32bit.fa21
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa21', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa21
+@:cin_i full_adder_32bit.fa21
+halstruct: (../1.src/full_adder_32bit.sv,173): in instance 'full_adder_32bit', 'c[20]' drives input 'cin_i' of instance 'fa21'.
+@:c[20] 
+halstruct: (../1.src/full_adder_32bit.sv,165): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa20' drives 'c[20]'.
+@:c[20] 
+@:c[20] 
+@:c[20] 
+@:cout_o full_adder_32bit.fa20
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa20', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa20
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,181|0): Output 'sum[22]' of top-level module is not a register.
+@:sum[22] 
+@:fa22 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,181|0): Combinatorial path crossing multiple units drives 'sum[22]'.
+@:sum[22] 
+@:sum_o full_adder_32bit.fa22
+@:$$cpiHT_56_1800 full_adder_32bit.fa22
+@:cin_i full_adder_32bit.fa22
+@:c[21] 
+@:cout_o full_adder_32bit.fa21
+@:$$cpiHT_56_1728 full_adder_32bit.fa21
+halstruct: (../1.src/full_adder_32bit.sv,181): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa22' drives 'sum[22]'.
+@:sum[22] 
+@:sum[22] 
+@:sum[22] 
+@:sum_o full_adder_32bit.fa22
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa22', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa22
+@:cin_i full_adder_32bit.fa22
+halstruct: (../1.src/full_adder_32bit.sv,181): in instance 'full_adder_32bit', 'c[21]' drives input 'cin_i' of instance 'fa22'.
+@:c[21] 
+halstruct: (../1.src/full_adder_32bit.sv,173): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa21' drives 'c[21]'.
+@:c[21] 
+@:c[21] 
+@:c[21] 
+@:cout_o full_adder_32bit.fa21
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa21', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa21
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,189|0): Output 'sum[23]' of top-level module is not a register.
+@:sum[23] 
+@:fa23 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,189|0): Combinatorial path crossing multiple units drives 'sum[23]'.
+@:sum[23] 
+@:sum_o full_adder_32bit.fa23
+@:$$cpiHT_56_1800 full_adder_32bit.fa23
+@:cin_i full_adder_32bit.fa23
+@:c[22] 
+@:cout_o full_adder_32bit.fa22
+@:$$cpiHT_56_1728 full_adder_32bit.fa22
+halstruct: (../1.src/full_adder_32bit.sv,189): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa23' drives 'sum[23]'.
+@:sum[23] 
+@:sum[23] 
+@:sum[23] 
+@:sum_o full_adder_32bit.fa23
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa23', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa23
+@:cin_i full_adder_32bit.fa23
+halstruct: (../1.src/full_adder_32bit.sv,189): in instance 'full_adder_32bit', 'c[22]' drives input 'cin_i' of instance 'fa23'.
+@:c[22] 
+halstruct: (../1.src/full_adder_32bit.sv,181): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa22' drives 'c[22]'.
+@:c[22] 
+@:c[22] 
+@:c[22] 
+@:cout_o full_adder_32bit.fa22
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa22', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa22
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,197|0): Output 'sum[24]' of top-level module is not a register.
+@:sum[24] 
+@:fa24 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,197|0): Combinatorial path crossing multiple units drives 'sum[24]'.
+@:sum[24] 
+@:sum_o full_adder_32bit.fa24
+@:$$cpiHT_56_1800 full_adder_32bit.fa24
+@:cin_i full_adder_32bit.fa24
+@:c[23] 
+@:cout_o full_adder_32bit.fa23
+@:$$cpiHT_56_1728 full_adder_32bit.fa23
+halstruct: (../1.src/full_adder_32bit.sv,197): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa24' drives 'sum[24]'.
+@:sum[24] 
+@:sum[24] 
+@:sum[24] 
+@:sum_o full_adder_32bit.fa24
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa24', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa24
+@:cin_i full_adder_32bit.fa24
+halstruct: (../1.src/full_adder_32bit.sv,197): in instance 'full_adder_32bit', 'c[23]' drives input 'cin_i' of instance 'fa24'.
+@:c[23] 
+halstruct: (../1.src/full_adder_32bit.sv,189): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa23' drives 'c[23]'.
+@:c[23] 
+@:c[23] 
+@:c[23] 
+@:cout_o full_adder_32bit.fa23
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa23', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa23
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,205|0): Output 'sum[25]' of top-level module is not a register.
+@:sum[25] 
+@:fa25 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,205|0): Combinatorial path crossing multiple units drives 'sum[25]'.
+@:sum[25] 
+@:sum_o full_adder_32bit.fa25
+@:$$cpiHT_56_1800 full_adder_32bit.fa25
+@:cin_i full_adder_32bit.fa25
+@:c[24] 
+@:cout_o full_adder_32bit.fa24
+@:$$cpiHT_56_1728 full_adder_32bit.fa24
+halstruct: (../1.src/full_adder_32bit.sv,205): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa25' drives 'sum[25]'.
+@:sum[25] 
+@:sum[25] 
+@:sum[25] 
+@:sum_o full_adder_32bit.fa25
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa25', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa25
+@:cin_i full_adder_32bit.fa25
+halstruct: (../1.src/full_adder_32bit.sv,205): in instance 'full_adder_32bit', 'c[24]' drives input 'cin_i' of instance 'fa25'.
+@:c[24] 
+halstruct: (../1.src/full_adder_32bit.sv,197): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa24' drives 'c[24]'.
+@:c[24] 
+@:c[24] 
+@:c[24] 
+@:cout_o full_adder_32bit.fa24
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa24', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa24
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,213|0): Output 'sum[26]' of top-level module is not a register.
+@:sum[26] 
+@:fa26 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,213|0): Combinatorial path crossing multiple units drives 'sum[26]'.
+@:sum[26] 
+@:sum_o full_adder_32bit.fa26
+@:$$cpiHT_56_1800 full_adder_32bit.fa26
+@:cin_i full_adder_32bit.fa26
+@:c[25] 
+@:cout_o full_adder_32bit.fa25
+@:$$cpiHT_56_1728 full_adder_32bit.fa25
+halstruct: (../1.src/full_adder_32bit.sv,213): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa26' drives 'sum[26]'.
+@:sum[26] 
+@:sum[26] 
+@:sum[26] 
+@:sum_o full_adder_32bit.fa26
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa26', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa26
+@:cin_i full_adder_32bit.fa26
+halstruct: (../1.src/full_adder_32bit.sv,213): in instance 'full_adder_32bit', 'c[25]' drives input 'cin_i' of instance 'fa26'.
+@:c[25] 
+halstruct: (../1.src/full_adder_32bit.sv,205): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa25' drives 'c[25]'.
+@:c[25] 
+@:c[25] 
+@:c[25] 
+@:cout_o full_adder_32bit.fa25
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa25', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa25
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,221|0): Output 'sum[27]' of top-level module is not a register.
+@:sum[27] 
+@:fa27 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,221|0): Combinatorial path crossing multiple units drives 'sum[27]'.
+@:sum[27] 
+@:sum_o full_adder_32bit.fa27
+@:$$cpiHT_56_1800 full_adder_32bit.fa27
+@:cin_i full_adder_32bit.fa27
+@:c[26] 
+@:cout_o full_adder_32bit.fa26
+@:$$cpiHT_56_1728 full_adder_32bit.fa26
+halstruct: (../1.src/full_adder_32bit.sv,221): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa27' drives 'sum[27]'.
+@:sum[27] 
+@:sum[27] 
+@:sum[27] 
+@:sum_o full_adder_32bit.fa27
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa27', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa27
+@:cin_i full_adder_32bit.fa27
+halstruct: (../1.src/full_adder_32bit.sv,221): in instance 'full_adder_32bit', 'c[26]' drives input 'cin_i' of instance 'fa27'.
+@:c[26] 
+halstruct: (../1.src/full_adder_32bit.sv,213): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa26' drives 'c[26]'.
+@:c[26] 
+@:c[26] 
+@:c[26] 
+@:cout_o full_adder_32bit.fa26
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa26', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa26
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,229|0): Output 'sum[28]' of top-level module is not a register.
+@:sum[28] 
+@:fa28 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,229|0): Combinatorial path crossing multiple units drives 'sum[28]'.
+@:sum[28] 
+@:sum_o full_adder_32bit.fa28
+@:$$cpiHT_56_1800 full_adder_32bit.fa28
+@:cin_i full_adder_32bit.fa28
+@:c[27] 
+@:cout_o full_adder_32bit.fa27
+@:$$cpiHT_56_1728 full_adder_32bit.fa27
+halstruct: (../1.src/full_adder_32bit.sv,229): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa28' drives 'sum[28]'.
+@:sum[28] 
+@:sum[28] 
+@:sum[28] 
+@:sum_o full_adder_32bit.fa28
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa28', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa28
+@:cin_i full_adder_32bit.fa28
+halstruct: (../1.src/full_adder_32bit.sv,229): in instance 'full_adder_32bit', 'c[27]' drives input 'cin_i' of instance 'fa28'.
+@:c[27] 
+halstruct: (../1.src/full_adder_32bit.sv,221): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa27' drives 'c[27]'.
+@:c[27] 
+@:c[27] 
+@:c[27] 
+@:cout_o full_adder_32bit.fa27
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa27', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa27
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,237|0): Output 'sum[29]' of top-level module is not a register.
+@:sum[29] 
+@:fa29 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,237|0): Combinatorial path crossing multiple units drives 'sum[29]'.
+@:sum[29] 
+@:sum_o full_adder_32bit.fa29
+@:$$cpiHT_56_1800 full_adder_32bit.fa29
+@:cin_i full_adder_32bit.fa29
+@:c[28] 
+@:cout_o full_adder_32bit.fa28
+@:$$cpiHT_56_1728 full_adder_32bit.fa28
+halstruct: (../1.src/full_adder_32bit.sv,237): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa29' drives 'sum[29]'.
+@:sum[29] 
+@:sum[29] 
+@:sum[29] 
+@:sum_o full_adder_32bit.fa29
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa29', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa29
+@:cin_i full_adder_32bit.fa29
+halstruct: (../1.src/full_adder_32bit.sv,237): in instance 'full_adder_32bit', 'c[28]' drives input 'cin_i' of instance 'fa29'.
+@:c[28] 
+halstruct: (../1.src/full_adder_32bit.sv,229): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa28' drives 'c[28]'.
+@:c[28] 
+@:c[28] 
+@:c[28] 
+@:cout_o full_adder_32bit.fa28
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa28', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa28
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,245|0): Output 'sum[30]' of top-level module is not a register.
+@:sum[30] 
+@:fa30 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,245|0): Combinatorial path crossing multiple units drives 'sum[30]'.
+@:sum[30] 
+@:sum_o full_adder_32bit.fa30
+@:$$cpiHT_56_1800 full_adder_32bit.fa30
+@:cin_i full_adder_32bit.fa30
+@:c[29] 
+@:cout_o full_adder_32bit.fa29
+@:$$cpiHT_56_1728 full_adder_32bit.fa29
+halstruct: (../1.src/full_adder_32bit.sv,245): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa30' drives 'sum[30]'.
+@:sum[30] 
+@:sum[30] 
+@:sum[30] 
+@:sum_o full_adder_32bit.fa30
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa30', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa30
+@:cin_i full_adder_32bit.fa30
+halstruct: (../1.src/full_adder_32bit.sv,245): in instance 'full_adder_32bit', 'c[29]' drives input 'cin_i' of instance 'fa30'.
+@:c[29] 
+halstruct: (../1.src/full_adder_32bit.sv,237): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa29' drives 'c[29]'.
+@:c[29] 
+@:c[29] 
+@:c[29] 
+@:cout_o full_adder_32bit.fa29
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa29', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa29
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,253|0): Output 'sum[31]' of top-level module is not a register.
+@:sum[31] 
+@:fa31 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,253|0): Combinatorial path crossing multiple units drives 'sum[31]'.
+@:sum[31] 
+@:sum_o full_adder_32bit.fa31
+@:$$cpiHT_56_1800 full_adder_32bit.fa31
+@:cin_i full_adder_32bit.fa31
+@:c[30] 
+@:cout_o full_adder_32bit.fa30
+@:$$cpiHT_56_1728 full_adder_32bit.fa30
+halstruct: (../1.src/full_adder_32bit.sv,253): in instance 'full_adder_32bit', output 'sum_o' of instance 'fa31' drives 'sum[31]'.
+@:sum[31] 
+@:sum[31] 
+@:sum[31] 
+@:sum_o full_adder_32bit.fa31
+halstruct: (../1.src/full_adder.sv,8): in instance 'full_adder_32bit.fa31', combinatorial function of input 'cin_i' drives 'sum_o'.
+@:sum_o full_adder_32bit.fa31
+@:cin_i full_adder_32bit.fa31
+halstruct: (../1.src/full_adder_32bit.sv,253): in instance 'full_adder_32bit', 'c[30]' drives input 'cin_i' of instance 'fa31'.
+@:c[30] 
+halstruct: (../1.src/full_adder_32bit.sv,245): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa30' drives 'c[30]'.
+@:c[30] 
+@:c[30] 
+@:c[30] 
+@:cout_o full_adder_32bit.fa30
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa30', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa30
+halstruct: *W,TPOUNR (../1.src/full_adder_32bit.sv,253|0): Output 'cout' of top-level module is not a register.
+@:cout 
+@:fa31 
+halstruct: *E,CBPAHI (../1.src/full_adder_32bit.sv,253|0): Combinatorial path crossing multiple units drives 'cout'.
+@:cout 
+@:cout_o full_adder_32bit.fa31
+@:$$cpiHT_56_1728 full_adder_32bit.fa31
+@:$$cpiHT_56_2008 full_adder_32bit.fa31
+@:$$cpiHT_56_2192 full_adder_32bit.fa31
+@:cin_i full_adder_32bit.fa31
+@:c[30] 
+@:cout_o full_adder_32bit.fa30
+@:$$cpiHT_56_1728 full_adder_32bit.fa30
+halstruct: (../1.src/full_adder_32bit.sv,253): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa31' drives 'cout'.
+@:cout 
+@:cout 
+@:cout 
+@:cout_o full_adder_32bit.fa31
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa31', combinatorial function of input 'cin_i' drives 'cout_o'.
+@:cout_o full_adder_32bit.fa31
+@:cin_i full_adder_32bit.fa31
+halstruct: (../1.src/full_adder_32bit.sv,253): in instance 'full_adder_32bit', 'c[30]' drives input 'cin_i' of instance 'fa31'.
+@:c[30] 
+halstruct: (../1.src/full_adder_32bit.sv,245): in instance 'full_adder_32bit', output 'cout_o' of instance 'fa30' drives 'c[30]'.
+@:c[30] 
+@:c[30] 
+@:c[30] 
+@:cout_o full_adder_32bit.fa30
+halstruct: (../1.src/full_adder.sv,7): in instance 'full_adder_32bit.fa30', combinatorial function drives 'cout_o'.
+@:cout_o full_adder_32bit.fa30
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[0]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[0]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.cin' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[1]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[1]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[2]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[2]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[3]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[3]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[4]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[4]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[5]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[5]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[6]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[6]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[7]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[7]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[8]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[8]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[9]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[9]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[10]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[10]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[11]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[11]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[12]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[12]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[13]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[13]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[14]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[14]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[15]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[15]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[16]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[16]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[17]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[17]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[18]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[18]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[19]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[19]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[20]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[20]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[21]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[21]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[22]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[22]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[23]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[23]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[24]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[24]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[25]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[25]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[26]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[26]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[27]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[27]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[28]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[28]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[29]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[29]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[30]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[30]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[31]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[31]' and top-level output 'full_adder_32bit.sum'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.A[31]' and top-level output 'full_adder_32bit.cout'.
+halstruct: *W,IOCOMB (../1.src/full_adder_32bit.sv,1|0): Combinational path detected between top-level input 'full_adder_32bit.B[31]' and top-level output 'full_adder_32bit.cout'.
+halstruct: *M,_SCOPE: full_adder_32bit.fa0
+halstruct: *W,SYNPRT (../1.src/full_adder.sv,8|0): Output port 'sum_o' is assigned asynchronously.
+halstruct: *W,SYNPRT (../1.src/full_adder.sv,7|0): Output port 'cout_o' is assigned asynchronously.
+halstruct: *M,_SCOPE: full_adder_32bit.fa31
+halstruct: *N,NUMDFF (../1.src/full_adder_32bit.sv,1|0): Number of single-bit D flip-flops present in the hierarchy is 0.
+halstruct: Design facts generated in 'hal.design_facts'.
+halstruct: Total errors   = 32.
+halstruct: Total warnings = 102.
+~:DSCNCK
+^:DSCNCK
+~:SLENEX
+^:SLENEX
+~:DSCNEN
+^:DSCNEN
+~:PCNOTC
+^:PCNOTC
+~:INPASN
+~:UNCONN
+~:UNDRIV
+~:USEPRT
+~:UASPRT
+~:URDPRT
+~:GATCLK
+~:RENAME
+~:RWRACE
+~:WWRACE
+~:LPISCS
+~:LPSRCS
+~:CMBPAU
+^:CMBPAU
+~:ASNCFL
+^:ASNCFL
+~:CONTLN
+^:CONTLN
+~:LATINF
+^:LATINF
+~:MULMCK
+^:MULMCK
+~:FFCKNP
+^:FFCKNP
+~:GTDCLK
+^:GTDCLK
+~:CLKLAT
+^:CLKLAT
+~:CLKNPI
+^:CLKNPI
+~:GTCLKN
+^:GTCLKN
+~:MRSTDT
+^:MRSTDT
+~:FDTHRU
+^:FDTHRU
+~:DFDRVS
+^:DFDRVS
+~:NEFLOP
+^:NEFLOP
+~:ACNCPI
+^:ACNCPI
+~:LENCPI
+^:LENCPI
+~:CLKDAT
+^:CLKDAT
+~:CLKLDT
+^:CLKLDT
+~:CLKINF
+^:CLKINF
+~:CDFDAT
+^:CDFDAT
+~:CDLDAT
+^:CDLDAT
+~:CAAFSR
+^:CAAFSR
+~:CACSRF
+^:CACSRF
+~:CAALSR
+^:CAALSR
+~:CACSRL
+^:CACSRL
+~:CLKDMN
+^:CLKDMN
+~:INSYNC
+^:INSYNC
+~:CBPAHI
+^:CBPAHI
+~:LFLTSE
+^:LFLTSE
+~:LFFTNE
+^:LFFTNE
+~:INFNOT
+^:INFNOT
+~:DALIAS
+^:DALIAS
+~:JKFFDT
+^:JKFFDT
+~:LATRAN
+^:LATRAN
+~:UNCONI
+^:UNCONI
+~:UNCONO
+^:UNCONO
+~:DIFCLK
+^:DIFCLK
+~:DIFRST
+^:DIFRST
+~:MLTDRV
+^:MLTDRV
+~:SUTHRU
+^:SUTHRU
+~:SEICLK
+^:SEICLK
+~:SMTCLK
+^:SMTCLK
+~:ASRTCK
+^:ASRTCK
+~:ASRTCL
+^:ASRTCL
+~:ASRTSC
+^:ASRTSC
+~:SCICLK
+^:SCICLK
+~:MULTCK
+^:MULTCK
+~:NOTCLK
+^:NOTCLK
+~:TCDFDT
+^:TCDFDT
+~:TCDLDT
+^:TCDLDT
+~:TCKDAT
+^:TCKDAT
+~:TCKLDT
+^:TCKLDT
+~:TXCNOP
+^:TXCNOP
+~:MEMNOP
+^:MEMNOP
+~:TENNOC
+^:TENNOC
+~:TENNOD
+^:TENNOD
+~:GLTASR
+^:GLTASR
+~:RSTEDG
+^:RSTEDG
+~:NOTSCN
+^:NOTSCN
+~:MCKNDB
+^:MCKNDB
+~:WENNDB
+^:WENNDB
+~:SCNLEN
+^:SCNLEN
+~:TMSCFF
+^:TMSCFF
+~:OUTMNR
+^:OUTMNR
+~:INPMNR
+^:INPMNR
+~:SRENSL
+^:SRENSL
+~:LDFFPI
+^:LDFFPI
+~:RSTDAT
+^:RSTDAT
+~:RSTGNH
+^:RSTGNH
+~:CLKGNH
+^:CLKGNH
+~:MXTSBC
+^:MXTSBC
+~:TSBNTH
+^:TSBNTH
+~:MXFNOT
+^:MXFNOT
+~:ATLGLC
+^:ATLGLC
+~:SLNOTP
+^:SLNOTP
+~:TPOUNR
+^:TPOUNR
+~:SELCLK
+^:SELCLK
+~:EDGMIX
+^:EDGMIX
+~:LGRSTL
+^:LGRSTL
+~:FRSTDL
+^:FRSTDL
+~:FRSTDF
+^:FRSTDF
+~:RSTDPT
+^:RSTDPT
+~:CLKDPT
+^:CLKDPT
+~:CLKUCL
+^:CLKUCL
+~:RSTUCL
+^:RSTUCL
+~:ENGTNR
+^:ENGTNR
+~:RSTDMN
+^:RSTDMN
+~:CLKNTP
+^:CLKNTP
+~:ADRSND
+^:ADRSND
+~:CGCENC
+^:CGCENC
+~:SEDFRS
+^:SEDFRS
+~:MULTCC
+^:MULTCC
+~:SMCKRS
+^:SMCKRS
+~:MEMNCB
+^:MEMNCB
+~:MTOMPH
+^:MTOMPH
+~:UVRFCN
+^:UVRFCN
+~:CONVRF
+^:CONVRF
+~:RSTENA
+^:RSTENA
+~:MOTINP
+^:MOTINP
+~:OPDNMT
+^:OPDNMT
+~:FENCNT
+^:FENCNT
+~:TPIUNR
+^:TPIUNR
+~:IPRTNR
+^:IPRTNR
+~:SYNPRT
+^:SYNPRT
+~:CONCLK
+^:CONCLK
+~:DATUNB
+^:DATUNB
+~:RSTINF
+^:RSTINF
+~:CKSMFC
+^:CKSMFC
+~:CDRNCF
+^:CDRNCF
+~:SAMESR
+^:SAMESR
+~:CGECCP
+^:CGECCP
+~:RSTNFR
+^:RSTNFR
+~:DTUNCP
+^:DTUNCP
+~:INSTCL
+^:INSTCL
+~:INSTCN
+^:INSTCN
+~:RSTCCK
+^:RSTCCK
+~:CGCPCK
+^:CGCPCK
+~:RSTCLK
+^:RSTCLK
+~:FFSRST
+^:FFSRST
+~:SGUNDV
+^:SGUNDV
+~:FFWASR
+^:FFWASR
+~:FFWNSR
+^:FFWNSR
+~:FFASRT
+^:FFASRT
+~:LCNSTD
+^:LCNSTD
+~:FFCSTD
+^:FFCSTD
+~:GENTOP
+^:GENTOP
+~:LTCHNT
+^:LTCHNT
+~:MLTDIO
+^:MLTDIO
+~:SYNASN
+^:SYNASN
+~:MULRST
+^:MULRST
+~:MCKDMN
+^:MCKDMN
+~:CLKGNP
+^:CLKGNP
+~:RSTGNP
+^:RSTGNP
+~:TSBINF
+^:TSBINF
+~:RTCDAT
+^:RTCDAT
+~:LENCPC
+^:LENCPC
+hal: *M,_SCOPE: __dummy_top

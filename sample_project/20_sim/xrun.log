@@ -1,0 +1,66 @@
+xrun(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s001: Started on Jul 12, 2025 at 17:49:27 +07
+xrun
+	-hal
+	-sv
+	-f ic74138.list
+		../00_src/ic74138.sv
+hal(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+hal: Options:   -cdslib ./xcelium.d/run.lnx8664.20.09.d/cds.lib -logfile xrun.log -f /home/gin/sample_project/20_sim/xcelium.d/run.lnx8664.20.09.d/hal.args .
+hal: Snapshot:  worklib.ic74138:sv.
+hal: Workspace: /home/gin/sample_project/20_sim.
+hal: Date: Sat Jul 12 17:49:28 +07 2025.
+
+hal: Running on elaborated SNAPSHOT.....
+
+  ==========================================================================
+Performing lint checks 
+
+halcheck(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+visadev(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+module ic74138 (
+|
+halcheck: *N,PRTCNT (../00_src/ic74138.sv,1|0): Module/Entity 'ic74138' contains '5' ports.
+halcheck: (../00_src/ic74138.sv,1): Number of Input ports: 4.
+halcheck: (../00_src/ic74138.sv,1): Number of Output ports: 1.
+  input  logic [2:0]  select_i,   // 3-bit select input
+|
+halcheck: *W,STYVAL (../00_src/ic74138.sv,5|0): Numeric value '2' used for identifier 'select_i'. Use constants to avoid portability issues.
+  output logic [7:0]  outputs_o   // 8 output lines, active-low
+|
+halcheck: *W,STYVAL (../00_src/ic74138.sv,6|0): Numeric value '7' used for identifier 'outputs_o'. Use constants to avoid portability issues.
+  always_comb begin
+|
+halcheck: *W,NOBLKN (../00_src/ic74138.sv,9|0): Each block should be labeled with a meaningful name.
+      case (select_i)
+|
+halcheck: *W,CDEFCV (../00_src/ic74138.sv,12|0): The case items of the case statement in module/design-unit ic74138 cover all the numerical values of the case expression. The default clause is not required.
+halcheck: Total errors   = 0.
+halcheck: Total warnings = 4.
+
+  ==========================================================================
+Performing synthesizability checks 
+
+cfe64(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+halsynth: Loading design snapshot....
+halsynth: Traversing design hierarchy....
+halsynth: Total errors   = 0.
+halsynth: Total warnings = 0.
+
+  ==========================================================================
+Performing structural checks 
+
+halstruct(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+visadev(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+    outputs_o = 8'b1111_1111;
+|
+halstruct: *W,TPOUNR (../00_src/ic74138.sv,10|0): Output 'outputs_o' of top-level module is not a register.
+module ic74138 (
+|
+halstruct: *N,NUMDFF (../00_src/ic74138.sv,1|0): Number of single-bit D flip-flops present in the hierarchy is 0.
+halstruct: Design facts generated in 'hal.design_facts'.
+halstruct: Total errors   = 0.
+halstruct: Total warnings = 1.
+
+  ==========================================================================
+TOOL:	xrun(64)	20.09-s001: Exiting on Jul 12, 2025 at 17:49:57 +07  (total: 00:00:30)

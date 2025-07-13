@@ -1,0 +1,12 @@
+halsynth: Loading design snapshot....
+halsynth: Traversing design hierarchy....
+~:CLKOUT
+~:CLKSRD
+~:COMBLP
+~:INPOUT
+~:MUDREG
+~:MULWIR
+~:UNDRIV
+halsynth: *M,_SCOPE: full_adder_32bit
+halsynth: Total errors   = 0.
+halsynth: Total warnings = 0.

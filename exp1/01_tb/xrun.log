@@ -1,0 +1,60 @@
+xrun(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+xrun: *W,FMDEF: The default file type mapping of .sv is being overwritten.
+TOOL:	xrun(64)	20.09-s001: Started on Jul 13, 2025 at 10:31:41 +07
+xrun
+	-gui
+	+xm64bit
+	-sv
+	-vlogext .sv
+	-f ../00_src/flist.f
+		../00_src/full_adder.v
+		../00_src/ripple_adder_4bit.v
+		../00_src/synth_wrapper.v
+	testbench.v
+	-timescale 1ns/10ps
+	+access+rcw
+file: ../00_src/full_adder.v
+	module worklib.fulladder:v
+		errors: 0, warnings: 0
+file: ../00_src/ripple_adder_4bit.v
+	module worklib.ripple_adder:v
+		errors: 0, warnings: 0
+file: ../00_src/synth_wrapper.v
+	module worklib.synth_wrapper:v
+		errors: 0, warnings: 0
+file: testbench.v
+	module worklib.testbench:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		testbench
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.synth_wrapper:v <0x68245411>
+			streams:   7, words:  3191
+		worklib.testbench:v <0x39c386dc>
+			streams:  10, words:  6042
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:                  7       4
+		Primitives:              20       3
+		Registers:               14      14
+		Scalar wires:             5       -
+		Expanded wires:          12       3
+		Vectored wires:           3       -
+		Always blocks:            1       1
+		Initial blocks:           4       4
+		Pseudo assignments:       9       9
+		Simulation timescale:  10ps
+	Writing initial simulation snapshot: worklib.testbench:v
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /opt/cadence/installs/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> 

@@ -1,0 +1,1 @@
+s1(13Jul2025:10:31:41):  xrun -gui +xm64bit -sv -vlogext .sv -f ../00_src/flist.f testbench.v -timescale 1ns/10ps +access+rcw 
