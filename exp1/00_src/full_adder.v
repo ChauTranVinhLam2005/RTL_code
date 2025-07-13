@@ -1,5 +1,5 @@
 module fulladder(X, Y, Ci, S, Co);
-  input X, Y, Ci;
+input X, Y, Ci;
   output S, Co;
   wire w1,w2,w3;
   //Structural code for one bit full adder
