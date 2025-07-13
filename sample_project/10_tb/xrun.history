@@ -1,0 +1,3 @@
+s1(12Jul2025:17:50:33):  xrun -sv ../00_src/ic74138.sv ic74138_tb.sv 
+s2(12Jul2025:17:50:54):  xrun -hal -sv ../00_src/ic74138.sv 
+s3(12Jul2025:17:52:26):  xrun -sv ../00_src/ic74138.sv ic74138_tb.sv -gui 

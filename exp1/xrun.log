@@ -1,0 +1,41 @@
+xrun(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+xrun: *W,FMDEF: The default file type mapping of .sv is being overwritten.
+TOOL:	xrun(64)	20.09-s001: Started on Jul 13, 2025 at 10:17:21 +07
+xrun
+	-gui
+	+xm64bit
+	-sv
+	-vlogext .sv
+	-f 00_src/flist.f
+		00_src/full_adder.v
+		00_src/ripple_adder_4bit.v
+		00_src/synth_wrapper.v
+	01_tb/testbench.v
+	-timescale 1ns/10ps
+	+access+rcw
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+
+-------------------------------------
+Relinquished control to SimVision...
+xcelium> 
+xcelium> source /opt/cadence/installs/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> database -open waves -into waves.shm -default
+Created default SHM database waves
+xcelium> probe -create -shm testbench.Cin testbench.Co testbench.clk testbench.ina testbench.inb testbench.out testbench.rstn
+Created probe 1
+xcelium> run
+xmsim: *W,SHMOFU: $shm_open - file waves.shm already in use (SHM database).
+            File: ./01_tb/testbench.v, line = 20, pos = 12
+           Scope: testbench
+            Time: 0 FS + 0
+
+xmsim: *W,SHMNOSO: $shm_probe - SHM file not opened with $shm_open.
+            File: ./01_tb/testbench.v, line = 21, pos = 13
+           Scope: testbench
+            Time: 0 FS + 0
+
+Simulation complete via $finish(1) at time 250 NS + 0
+./01_tb/testbench.v:44      $finish;
+xcelium> ^C
+xcelium> exit
+TOOL:	xrun(64)	20.09-s001: Exiting on Jul 13, 2025 at 10:18:14 +07  (total: 00:00:53)

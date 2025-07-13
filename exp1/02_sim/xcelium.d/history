@@ -1,0 +1,7 @@
+//
+// File created by:  xrun
+// Do not modify this file
+
+s1::(13Jul2025:10:25:30):( xrun +xm64bit -sv -vlogext .sv -f ../00_src/flist.f ../01_tb/testbench.v -timescale 1ns/10ps +access+rcw )
+s2::(13Jul2025:10:25:49):( xrun -gui +xm64bit -sv -vlogext .sv -f ../00_src/flist.f ../01_tb/testbench.v -timescale 1ns/10ps +access+rcw )
+s3::(13Jul2025:10:26:35):( xrun -gui +xm64bit -sv -vlogext .sv -f ../00_src/flist.f ../01_tb/testbench.v -timescale 1ns/10ps +access+rcw )
