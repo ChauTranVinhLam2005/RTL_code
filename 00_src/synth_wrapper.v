@@ -8,7 +8,7 @@ module synth_wrapper
 );
   reg [3:0] X_reg;
   reg [3:0] Y_reg;
-  reg [3:0] S_reg;
+  wire [3:0] S_reg;
   wire  Co_reg;
   reg  Cin_reg;
 

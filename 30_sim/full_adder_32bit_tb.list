@@ -1,0 +1,2 @@
+../00_src/full_adder_32bit.v
+../10_tb/full_adder_32bit_tb.v

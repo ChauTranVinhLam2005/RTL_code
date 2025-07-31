@@ -1,0 +1,129 @@
+halstruct(64): 20.09-s001: (c) Copyright 1995-2020 Cadence Design Systems, Inc.
+
+
+
+Design facts for top module: regfile
+-----------------------------------------
+
+  1. Primary inputs used as flip-flop
+     clocks and latch enables         :
+                                            Number Of single-bit
+     Primary Input                    : Flipflops/latches controlled
+     -------------                      ----------------------------
+     clk_i                            : 1056 FFs
+
+  2. Gated primary input used as flip-flop
+     clocks and latch enables         :
+                                            Number Of single-bit
+     Gated primary signal             : Flipflops/latches controlled
+     -------------------                ----------------------------
+
+  3. Internally generated signals used as flip-flop
+     clocks and latch enables         :
+                                            Number Of single-bit
+     Internal signal                  : Flipflops/latches controlled
+     -------------                      ----------------------------
+
+  4. Primary inputs used as async
+     set/reset
+                                      : **NONE**
+     Primary inputs used as sync
+     set/reset
+                                      : **NONE**
+
+     Internally generated signals used as async
+     set/reset
+     regfile.r0.nrst_i
+     regfile.r1.nrst_i
+     regfile.r2.nrst_i
+     regfile.r3.nrst_i
+     regfile.r4.nrst_i
+     regfile.r5.nrst_i
+     regfile.r6.nrst_i
+     regfile.r7.nrst_i
+     regfile.r8.nrst_i
+     regfile.r9.nrst_i
+     regfile.r10.nrst_i
+     regfile.r11.nrst_i
+     regfile.r12.nrst_i
+     regfile.r13.nrst_i
+     regfile.r14.nrst_i
+     regfile.r15.nrst_i
+     regfile.r16.nrst_i
+     regfile.r17.nrst_i
+     regfile.r18.nrst_i
+     regfile.r19.nrst_i
+     regfile.r20.nrst_i
+     regfile.r21.nrst_i
+     regfile.r22.nrst_i
+     regfile.r23.nrst_i
+     regfile.r24.nrst_i
+     regfile.r25.nrst_i
+     regfile.r26.nrst_i
+     regfile.r27.nrst_i
+     regfile.r28.nrst_i
+     regfile.r29.nrst_i
+     regfile.r30.nrst_i
+     regfile.r31.nrst_i
+
+  5. Clock-Reset Generators :
+
+  6. Clock/Reset/Set Details :
+
+  7. Physical Blocks Info :
+
+  8. Physical Block Clocks Domain Info :
+
+
+Design facts for top module: mux_32to1
+-----------------------------------------
+
+  1. Primary inputs used as flip-flop
+     clocks and latch enables         :
+                                            Number Of single-bit
+     Primary Input                    : Flipflops/latches controlled
+     -------------                      ----------------------------
+
+  2. Gated primary input used as flip-flop
+     clocks and latch enables         :
+                                            Number Of single-bit
+     Gated primary signal             : Flipflops/latches controlled
+     -------------------                ----------------------------
+
+  3. Internally generated signals used as flip-flop
+     clocks and latch enables         :
+                                            Number Of single-bit
+     Internal signal                  : Flipflops/latches controlled
+     -------------                      ----------------------------
+
+  4. Primary inputs used as async
+     set/reset
+                                      : **NONE**
+     Primary inputs used as sync
+     set/reset
+                                      : **NONE**
+
+     Internally generated signals used as async
+     set/reset
+
+  5. Clock-Reset Generators :
+
+  6. Clock/Reset/Set Details :
+
+  7. Physical Blocks Info :
+
+  8. Physical Block Clocks Domain Info :
+
+
+=========================================
+
+Design facts for the complete design:
+-----------------------------------------
+
+  1. Number of tops in hierarchy : 2
+
+  2. Number of single-bit flip-flops in hierarchy : 1056
+    -- (i)  Number of single-bit D flip-flops in hierarchy : 1056
+    -- (ii) Number of single-bit JK flip-flops in hierarchy : 0
+
+  3. Number of single-bit latches in hierarchy : 0

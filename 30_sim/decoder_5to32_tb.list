@@ -1,0 +1,2 @@
+../00_src/decoder_5to32.v
+../10_tb/decoder_5to32_tb.v

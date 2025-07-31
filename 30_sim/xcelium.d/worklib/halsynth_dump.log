@@ -1,0 +1,5 @@
+General information about this run 
+-- piranha worklib.regfile:v
+-- TOOL:	cfe64(64)	20.09-s001
+-- Options : +TOOLNAME halsynth -HAL ALL -BB_SIG_SIZE 16384 +DISABLE -MULTI_DRIVEN_REG TRI -NOLOG +PRIM_TRI +FSM_RULE_CHECKS -SYNTHESIS ALL -IGNORE_COMB_INIT -VITAL_BLACKBOX +MDARRAY_ON -DEFINES /opt/cadence/installs/XCELIUM2009/tools/hal/files/hal.def -DUMP +RULES_LIST +HAL_SIDEFILE xrun.log -PRAGMA ALL -cdslib ./xcelium.d/run.lnx8664.20.09.d/cds.lib -hdlvar ./xcelium.d/run.lnx8664.20.09.d/hdl.var worklib.regfile:v
+-- SMV File is :/home/gin/Desktop/RTL_code/30_sim/xcelium.d/worklib/regfile/v/regfile.smv

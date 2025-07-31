@@ -1,0 +1,477 @@
+s1(19Mar2025:00:28:06):  xrun -hal -sv -f demux_1to4.list 
+s2(19Mar2025:00:32:10):  xrun -hal -sv -f demux_1to4.list 
+s3(19Mar2025:00:33:53):  xrun -hal -sv -f demux_1to4.list 
+s4(19Mar2025:00:37:06):  xrun -hal -sv -f demux_1to4.list 
+s5(19Mar2025:00:37:40):  xrun -hal -sv -f demux_1to4.list 
+s6(19Mar2025:00:37:58):  xrun -hal -sv -f demux_1to4.list 
+s7(19Mar2025:00:38:46):  xrun -hal -sv -f demux_1to4.list 
+s8(19Mar2025:00:48:08):  xrun -sv -f demux_1to4_tb.list 
+s9(19Mar2025:00:49:08):  xrun -sv -f demux_1to4_tb.list 
+s10(19Mar2025:00:49:58):  xrun -sv -f demux_1to4_tb.list 
+s11(19Mar2025:00:52:05):  xrun -sv -f demux_1to4_tb.list 
+s12(19Mar2025:00:52:24):  xrun -sv -f demux_1to4_tb.list 
+s13(19Mar2025:00:52:44):  xrun -sv -f demux_1to4_tb.list 
+s14(19Mar2025:00:53:18):  xrun -sv -f demux_1to4_tb.list 
+s15(19Mar2025:00:54:16):  xrun -sv -f demux_1to4_tb.list 
+s16(19Mar2025:00:54:58):  xrun -sv -f demux_1to4_tb.list 
+s17(19Mar2025:00:56:53):  xrun -sv -f demux_1to4_tb.list 
+s18(04Apr2025:20:37:37):  xrun -hal -sv -f full_adder.list 
+s19(04Apr2025:20:38:07):  xrun -hal -sv -f add_subtract.list 
+s20(04Apr2025:20:40:05):  xrun -sv -f full_adder_tb.list 
+s21(05Apr2025:09:37:11):  xrun -hal -sv -f mux_32to1.list 
+s22(05Apr2025:09:37:51):  xrun -sv -f mux_32to1.list 
+s23(05Apr2025:09:40:05):  xrun -sv -f demux_1to32_tb.list 
+s24(05Apr2025:10:53:25):  xrun -hal -sv -f mux_4to1.list 
+s25(05Apr2025:10:55:20):  xrun -sv -f mux_4to1.list 
+s26(05Apr2025:10:56:49):  xrun -sv -f add_subtract_tb.list 
+s27(05Apr2025:23:52:03):  xrun -hal -sv -f brcomp.list 
+s28(05Apr2025:23:52:48):  xrun -hal -sv -f brcomp.list 
+s29(05Apr2025:23:52:55):  xrun -hal -sv -f brcomp.list 
+s30(05Apr2025:23:53:36):  xrun -hal -sv -f brcomp.list 
+s31(05Apr2025:23:53:52):  xrun -hal -sv -f brcomp.list 
+s32(05Apr2025:23:54:36):  xrun -hal -sv -f brcomp.list 
+s33(05Apr2025:23:54:48):  xrun -hal -sv -f brcomp.list 
+s34(05Apr2025:23:54:53):  xrun -hal -sv -f brcomp.list 
+s35(05Apr2025:23:55:17):  xrun -hal -sv -f brcomp.list 
+s36(05Apr2025:23:56:11):  xrun -hal -sv -f brcomp.list 
+s37(06Apr2025:00:06:46):  xrun -sv -f brcomp_tb.list 
+s38(06Apr2025:00:07:11):  xrun -sv -f brcomp_tb.list 
+s39(06Apr2025:00:08:02):  xrun -sv -f brcomp_tb.list 
+s40(06Apr2025:00:09:06):  xrun -sv -f brcomp_tb.list 
+s41(06Apr2025:00:10:58):  xrun -sv -f brcomp_tb.list 
+s42(06Apr2025:00:11:59):  xrun -sv -f brcomp_tb.list 
+s43(06Apr2025:00:13:55):  xrun -sv -f brcomp_tb.list 
+s44(06Apr2025:00:14:45):  xrun -sv -f brcomp_tb.list 
+s45(17Apr2025:17:36:34):  xrun -sv -f full_adder_32bit_tb.list 
+s46(20Apr2025:00:30:56):  xrun -hal -sv -f brcomp.list 
+s47(20Apr2025:00:32:34):  xrun -hal -sv -f brcomp.list 
+s48(20Apr2025:00:33:01):  xrun -hal -sv -f brcomp.list 
+s49(20Apr2025:00:42:31):  xrun -sv -f brcomp_tb.list 
+s50(20Apr2025:00:47:25):  xrun -sv -f brcomp_tb.list 
+s51(20Apr2025:00:49:52):  xrun -sv -f brcomp_tb.list 
+s52(20Apr2025:01:10:03):  xrun -sv -f brcomp_tb.list 
+s53(20Apr2025:01:10:42):  xrun -sv -f brcomp_tb.list 
+s54(20Apr2025:01:10:45):  xrun -sv -f brcomp_tb.list 
+s55(20Apr2025:01:14:54):  xrun -sv -f brcomp_tb.list 
+s56(20Apr2025:01:15:07):  xrun -sv -f brcomp_tb.list 
+s57(20Apr2025:01:15:17):  xrun -sv -f brcomp_tb.list 
+s58(20Apr2025:01:15:29):  xrun -sv -f brcomp_tb.list 
+s59(20Apr2025:01:15:49):  xrun -sv -f brcomp_tb.list 
+s60(20Apr2025:01:15:58):  xrun -sv -f brcomp_tb.list 
+s61(20Apr2025:01:17:11):  xrun -sv -f brcomp_tb.list 
+s62(20Apr2025:01:17:28):  xrun -sv -f brcomp_tb.list 
+s63(20Apr2025:01:17:40):  xrun -sv -f brcomp_tb.list 
+s64(20Apr2025:01:24:03):  xrun -sv -f brcomp_tb.list 
+s65(20Apr2025:01:25:12):  xrun -sv -f brcomp_tb.list 
+s66(20Apr2025:01:25:37):  xrun -sv -f full_adder_tb.list 
+s67(20Apr2025:01:26:07):  xrun -sv -f brcomp_tb.list 
+s68(20Apr2025:01:29:07):  xrun -sv -f brcomp_tb.list 
+s69(20Apr2025:01:30:11):  xrun -sv -f brcomp_tb.list 
+s70(20Apr2025:10:50:58):  xrun -sv -f demux_1to32_tb.list 
+s71(20Apr2025:10:52:02):  xrun -sv -f full_adder_32bit_tb.list 
+s72(20Apr2025:16:52:06):  xrun -hal -sv -f full_adder_32bit.list 
+s73(20Apr2025:16:52:37):  xrun -hal -sv -f full_adder_32bit.list 
+s74(20Apr2025:16:54:17):  xrun -sv -f full_adder_32bit_tb.list 
+s75(20Apr2025:16:54:46):  xrun -sv -f add_subtract_tb.list 
+s76(20Apr2025:16:55:04):  xrun -sv -f add_subtract_tb.list 
+s77(20Apr2025:16:55:11):  xrun -sv -f add_subtract_tb.list 
+s78(20Apr2025:16:55:38):  xrun -sv -f add_subtract_tb.list 
+s79(20Apr2025:16:55:57):  xrun -sv -f add_subtract_tb.list 
+s80(20Apr2025:16:56:12):  xrun -sv -f add_subtract_tb.list 
+s81(20Apr2025:17:01:46):  xrun -sv -f add_subtract_tb.list 
+s82(20Apr2025:17:05:04):  xrun -sv -f add_subtract_tb.list 
+s83(20Apr2025:17:05:15):  xrun -sv -f add_subtract_tb.list 
+s84(20Apr2025:17:05:44):  xrun -sv -f add_subtract_tb.list 
+s85(20Apr2025:17:09:57):  xrun -sv -f add_subtract_tb.list 
+s86(20Apr2025:17:11:16):  xrun -sv -f add_subtract_tb.list 
+s87(20Apr2025:17:11:22):  xrun -hal -sv -f add_subtract.list 
+s88(20Apr2025:17:17:03):  xrun -hal -sv -f add_subtract.list 
+s89(20Apr2025:17:17:07):  xrun -sv -f add_subtract_tb.list 
+s90(20Apr2025:17:17:26):  xrun -sv -f add_subtract_tb.list 
+s91(23Apr2025:16:34:58):  xrun -hal -sv -f brcomp.list 
+s92(23Apr2025:16:40:41):  xrun -sv -f brcomp_tb.list 
+s93(23Apr2025:16:49:22):  xrun -sv -f brcomp_tb.list 
+s94(23Apr2025:16:51:15):  xrun -sv -f brcomp_tb.list 
+s95(23Apr2025:17:11:12):  xrun -sv -f brcomp_tb.list 
+s96(23Apr2025:17:11:23):  xrun -sv -f brcomp_tb.list 
+s97(23Apr2025:17:11:32):  xrun -sv -f brcomp_tb.list 
+s98(23Apr2025:17:11:38):  xrun -sv -f brcomp_tb.list 
+s99(23Apr2025:17:11:50):  xrun -sv -f brcomp_tb.list 
+s100(23Apr2025:17:16:05):  xrun -sv -f brcomp_tb.list 
+s101(23Apr2025:17:16:54):  xrun -sv -f brcomp_tb.list 
+s102(23Apr2025:17:17:15):  xrun -sv -f brcomp_tb.list 
+s103(23Apr2025:17:18:57):  xrun -sv -f brcomp_tb.list 
+s104(23Apr2025:17:19:04):  xrun -sv -f brcomp_tb.list 
+s105(23Apr2025:17:23:14):  xrun -sv -f brcomp_tb.list 
+s106(23Apr2025:17:23:47):  xrun -sv -f brcomp_tb.list 
+s107(23Apr2025:17:24:01):  xrun -sv -f brcomp_tb.list 
+s108(19Jul2025:18:05:31):  xrun -hal -sv -f ../00_src/flist.f 
+s109(19Jul2025:18:08:39):  xrun -v 2001 -f full_adder_tb.list 
+s110(19Jul2025:18:10:27):  xrun -v 2001 -f full_adder_tb.list 
+s111(19Jul2025:18:14:07):  xrun -v 2001 -f ../10_tb/tblist.f -top full_adder_tb 
+s112(19Jul2025:18:15:50):  xrun -hal -v 2001 -f ../00_src/flist.f 
+s113(19Jul2025:18:15:51):  xrun -v 2001 -f ../10_tb/tblist.f -top full_adder_tb 
+s114(19Jul2025:18:17:11):  xrun -hal -v 2001 -f ../00_src/flist.f 
+s115(19Jul2025:18:17:12):  xrun -v 2001 -f ../10_tb/tblist.f 
+s116(19Jul2025:18:17:34):  xrun -hal -v 2001 -f ../00_src/flist.f 
+s117(19Jul2025:18:17:34):  xrun -v 2001 -f ../10_tb/full_adder_tb.v 
+s118(19Jul2025:18:18:10):  xrun -sv -f full_adder_tb.list 
+s119(19Jul2025:18:20:05):  xrun -sv -f full_adder_tb.list 
+s120(19Jul2025:18:20:45):  xrun -sv -f ../00_src/full_adder.v -f ../10_tb/full_adder_tb.v 
+s121(19Jul2025:18:21:13):  xrun -sv -f ../00_src/full_adder.v -f ../10_tb/full_adder_tb.v 
+s122(19Jul2025:18:21:20):  xrun -sv -f full_adder_tb.list 
+s123(19Jul2025:18:23:21):  xrun -hal -v 2001 -f ../00_src/flist.f 
+s124(19Jul2025:18:24:00):  xrun -hal -v 2001 -f ../00_src/flist.f 
+s125(19Jul2025:18:24:00):  xrun -v 2001 ../10.tb/full_adder_tb.v 
+s126(19Jul2025:18:24:34):  xrun -hal -v 2001 -f ../00_src/flist.f 
+s127(19Jul2025:18:24:35):  xrun -v 2001 ../10.tb/full_adder_tb.v -top full_adder_tb 
+s128(19Jul2025:18:25:10):  xrun -sv -f full_adder_tb.list 
+s129(19Jul2025:18:29:06):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s130(19Jul2025:18:30:40):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s131(19Jul2025:18:33:13):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s132(19Jul2025:18:33:45):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s133(19Jul2025:18:35:26):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s134(19Jul2025:18:36:24):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s135(19Jul2025:18:37:49):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s136(19Jul2025:18:39:10):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s137(19Jul2025:18:40:08):  xrun -v 2001 -f full_adder_32bit_tb.list 
+s138(19Jul2025:18:41:28):  xrun -f full_adder_32bit_tb.list 
+s139(19Jul2025:18:41:49):  xrun -f full_adder_tb.list 
+s140(19Jul2025:18:43:37):  xrun -f full_adder_tb.list 
+s141(19Jul2025:18:43:43):  xrun -f full_adder_32bit_tb.list 
+s142(19Jul2025:18:44:29):  xrun -f full_adder_32bit_tb.list 
+s143(19Jul2025:18:45:50):  xrun -f full_adder_32bit_tb.list 
+s144(19Jul2025:18:46:04):  xrun -f full_adder_32bit_tb.list 
+s145(19Jul2025:18:46:53):  xrun -f full_adder_32bit_tb.list 
+s146(19Jul2025:18:47:27):  xrun -f full_adder_32bit_tb.list 
+s147(19Jul2025:18:47:55):  xrun -f full_adder_32bit_tb.list 
+s148(19Jul2025:18:48:40):  xrun -f full_adder_tb.list 
+s149(19Jul2025:18:49:13):  xrun -f full_adder_tb.list 
+s150(19Jul2025:18:50:26):  xrun -hal -v 2001 -f ../00_src/flist.f GUI=-gui 
+s151(19Jul2025:18:51:01):  xrun -hal -v 2001 -f ../00_src/flist.f -gui 
+s152(19Jul2025:18:52:49):  xrun -hal -v 2001 -f ../00_src/flist.f -gui 
+s153(19Jul2025:18:54:18):  xrun -hal -v 2001 -f ../00_src/flist.f -gui 
+s154(19Jul2025:18:55:54):  xrun -hal -v 2001 -f ../00_src/flist.f -gui 
+s155(19Jul2025:18:56:35):  xrun -hal -v 2001 -f ../00_src/flist.f -gui 
+s156(19Jul2025:18:57:39):  xrun -hal -v2001 -f ../00_src/flist.f -gui 
+s157(19Jul2025:18:58:41):  xrun -hal -gui -v2001 -f ../00_src/full_adder.v 
+s158(19Jul2025:20:15:31):  xrun -v2001 -f ../00_src/flist.f -gui 
+s159(19Jul2025:20:15:32):  xrun -f full_adder_tb.list 
+s160(19Jul2025:21:06:48):  xrun -v2001 -f ../00_src/flist.f -gui 
+s161(19Jul2025:21:09:30):  xrun -v2001 -f ../00_src/flist.f -gui 
+s162(19Jul2025:21:12:12):  xrun -v2001 -f ../00_src/flist.f -gui 
+s163(19Jul2025:21:15:16):  xrun -v2001 -f ../00_src/flist.f -gui 
+s164(19Jul2025:21:52:09):  xrun -v2001 -f ../00_src/flist.f -gui 
+s165(19Jul2025:21:52:37):  xrun -v2001 -f ../00_src/flist.f -gui 
+s166(19Jul2025:21:53:16):  xrun -v2001 -f ../00_src/flist.f -gui 
+s167(19Jul2025:21:53:24):  xrun -v2001 -f ../00_src/flist.f -gui 
+s168(19Jul2025:21:53:32):  xrun -v2001 -f ../00_src/flist.f -gui 
+s169(19Jul2025:21:56:16):  xrun -v2001 -f ../00_src/flist.f -gui 
+s170(19Jul2025:21:57:09):  xrun -v2001 -f ../00_src/flist.f -gui 
+s171(19Jul2025:21:57:10):  xrun -f full_adder_tb.list 
+s172(19Jul2025:21:57:41):  xrun -v2001 -f ../00_src/flist.f -gui 
+s173(19Jul2025:22:00:45):  xrun -f full_adder_tb.list 
+s174(19Jul2025:22:01:20):  xrun -f full_adder_32bit_tb.list 
+s175(19Jul2025:22:01:35):  xrun -f full_adder_32bit_tb.list 
+s176(19Jul2025:22:03:27):  xrun -f add_subtract_tb.list 
+s177(19Jul2025:22:05:36):  xrun -f add_subtract_tb.list 
+s178(19Jul2025:22:07:11):  xrun -f add_subtract_tb.list 
+s179(19Jul2025:22:08:22):  xrun -f add_subtract_tb.list 
+s180(19Jul2025:22:09:14):  xrun -f add_subtract_tb.list 
+s181(19Jul2025:22:13:12):  xrun -f add_subtract_tb.list 
+s182(19Jul2025:22:13:28):  xrun -f add_subtract_tb.list 
+s183(19Jul2025:22:15:15):  xrun -f add_subtract_tb.list 
+s184(19Jul2025:22:16:34):  xrun -f add_subtract_tb.list 
+s185(19Jul2025:22:17:05):  xrun -f add_subtract_tb.list 
+s186(19Jul2025:22:18:32):  xrun -f add_subtract_tb.list 
+s187(19Jul2025:22:18:55):  xrun -f add_subtract_tb.list 
+s188(19Jul2025:22:23:15):  xrun -f add_subtract_tb.list 
+s189(19Jul2025:22:25:26):  xrun -f add_subtract_tb.list 
+s190(19Jul2025:22:31:06):  xrun -f add_subtract_tb.list 
+s191(19Jul2025:22:31:48):  xrun -f add_subtract_tb.list 
+s192(19Jul2025:22:32:15):  xrun -f add_subtract_tb.list 
+s193(24Jul2025:12:51:27):  xrun -f add_subtract_tb.list 
+s194(24Jul2025:12:59:52):  xrun -f add_subtract_tb.list 
+s195(24Jul2025:13:07:01):  xrun -f add_subtract_tb.list 
+s196(24Jul2025:13:12:17):  xrun -f add_subtract_tb.list 
+s197(24Jul2025:13:13:46):  xrun -f full_adder_32bit_tb.list 
+s198(24Jul2025:13:18:16):  xrun -f add_subtract_tb.list 
+s199(24Jul2025:13:18:57):  xrun -f add_subtract_tb.list 
+s200(24Jul2025:13:20:26):  xrun -f add_subtract_tb.list 
+s201(24Jul2025:13:20:49):  xrun -f add_subtract_tb.list 
+s202(24Jul2025:13:22:33):  xrun -f add_subtract_tb.list 
+s203(24Jul2025:13:23:07):  xrun -f add_subtract_tb.list 
+s204(24Jul2025:13:24:18):  xrun -f add_subtract_tb.list 
+s205(24Jul2025:13:25:00):  xrun -f add_subtract_tb.list 
+s206(24Jul2025:13:29:25):  xrun -f add_subtract_tb.list 
+s207(24Jul2025:13:29:36):  xrun -f add_subtract_tb.list 
+s208(24Jul2025:13:30:21):  xrun -f add_subtract_tb.list 
+s209(24Jul2025:13:31:02):  xrun -f add_subtract_tb.list 
+s210(24Jul2025:13:31:44):  xrun -f add_subtract_tb.list 
+s211(24Jul2025:13:32:19):  xrun -f add_subtract_tb.list 
+s212(24Jul2025:13:32:50):  xrun -f add_subtract_tb.list 
+s213(24Jul2025:13:34:08):  xrun -f add_subtract_tb.list 
+s214(24Jul2025:13:34:33):  xrun -f add_subtract_tb.list 
+s215(24Jul2025:13:36:00):  xrun -f add_subtract_tb.list 
+s216(24Jul2025:13:36:43):  xrun -f add_subtract_tb.list 
+s217(24Jul2025:13:37:24):  xrun -f add_subtract_tb.list 
+s218(24Jul2025:13:43:41):  xrun -f add_subtract_tb.list 
+s219(24Jul2025:14:23:30):  xrun -f brcomp_tb.list 
+s220(24Jul2025:14:23:50):  xrun -f brcomp_tb.list 
+s221(24Jul2025:14:25:08):  xrun -f brcomp_tb.list 
+s222(24Jul2025:14:26:11):  xrun -f brcomp_tb.list 
+s223(24Jul2025:14:27:37):  xrun -f brcomp_tb.list 
+s224(24Jul2025:14:27:46):  xrun -f brcomp_tb.list 
+s225(24Jul2025:14:29:26):  xrun -f brcomp_tb.list 
+s226(24Jul2025:14:31:41):  xrun -f brcomp_tb.list 
+s227(24Jul2025:14:31:56):  xrun -f brcomp_tb.list 
+s228(24Jul2025:14:32:46):  xrun -f brcomp_tb.list 
+s229(24Jul2025:14:33:26):  xrun -f brcomp_tb.list 
+s230(24Jul2025:14:34:21):  xrun -f brcomp_tb.list 
+s231(24Jul2025:14:37:05):  xrun -v2001 -f ../00_src/flist.f 
+s232(24Jul2025:14:37:05):  xrun -f brcomp_tb.list 
+s233(24Jul2025:14:37:22):  xrun -v2001 -f ../00_src/flist.f 
+s234(24Jul2025:14:37:23):  xrun -f brcomp_tb.list 
+s235(24Jul2025:14:38:03):  xrun -v2001 -f ../00_src/flist.f 
+s236(24Jul2025:14:38:04):  xrun -f brcomp_tb.list 
+s237(24Jul2025:14:38:24):  xrun -v2001 -f ../00_src/flist.f 
+s238(24Jul2025:14:38:25):  xrun -f brcomp_tb.list 
+s239(24Jul2025:17:12:58):  xrun -v2001 -f ../00_src/flist.f 
+s240(24Jul2025:17:12:58):  xrun -f brcomp_tb.list 
+s241(24Jul2025:17:13:32):  xrun -v2001 -f ../00_src/flist.f 
+s242(24Jul2025:17:13:33):  xrun -f brcomp_tb.list 
+s243(24Jul2025:17:23:37):  xrun -v2001 -f ../00_src/flist.f 
+s244(24Jul2025:17:23:38):  xrun -f brcomp_tb.list 
+s245(24Jul2025:17:34:47):  xrun -v2001 -f ../00_src/flist.f 
+s246(24Jul2025:17:34:48):  xrun -f brcomp_tb.list 
+s247(24Jul2025:17:42:37):  xrun -v2001 -f ../00_src/flist.f 
+s248(24Jul2025:17:42:38):  xrun -f brcomp_tb.list 
+s249(24Jul2025:17:44:08):  xrun -v2001 -f ../00_src/flist.f 
+s250(24Jul2025:17:44:09):  xrun -f brcomp_tb.list 
+s251(24Jul2025:17:49:11):  xrun -v2001 -f ../00_src/flist.f 
+s252(24Jul2025:17:49:11):  xrun -f brcomp_tb.list 
+s253(24Jul2025:17:49:37):  xrun -v2001 -f ../00_src/flist.f 
+s254(24Jul2025:17:49:38):  xrun -f brcomp_tb.list 
+s255(24Jul2025:17:51:47):  xrun -v2001 -f ../00_src/flist.f 
+s256(24Jul2025:17:51:47):  xrun -f brcomp_tb.list 
+s257(24Jul2025:17:52:18):  xrun -v2001 -f ../00_src/flist.f 
+s258(24Jul2025:17:52:18):  xrun -f brcomp_tb.list 
+s259(24Jul2025:17:52:32):  xrun -v2001 -f ../00_src/flist.f 
+s260(24Jul2025:17:52:32):  xrun -f brcomp_tb.list 
+s261(24Jul2025:17:52:58):  xrun -v2001 -f ../00_src/flist.f 
+s262(24Jul2025:17:52:59):  xrun -f brcomp_tb.list 
+s263(24Jul2025:17:54:14):  xrun -v2001 -f ../00_src/flist.f 
+s264(24Jul2025:17:54:15):  xrun -f brcomp_tb.list 
+s265(24Jul2025:18:06:03):  xrun -v2001 -f ../00_src/flist.f 
+s266(24Jul2025:18:06:03):  xrun -f brcomp_tb.list 
+s267(24Jul2025:18:07:02):  xrun -v2001 -f ../00_src/flist.f 
+s268(24Jul2025:18:07:03):  xrun -f brcomp_tb.list 
+s269(24Jul2025:18:07:57):  xrun -v2001 -f ../00_src/flist.f 
+s270(24Jul2025:18:07:57):  xrun -f brcomp_tb.list 
+s271(24Jul2025:18:10:35):  xrun -f add_subtract_tb.list 
+s272(24Jul2025:18:12:03):  xrun -v2001 -f ../00_src/flist.f 
+s273(24Jul2025:18:12:04):  xrun -f brcomp_tb.list 
+s274(24Jul2025:18:14:06):  xrun -f add_subtract_tb.list 
+s275(24Jul2025:18:14:32):  xrun -f add_subtract_tb.list 
+s276(26Jul2025:15:29:37):  xrun -f add_subtract_tb.list 
+s277(26Jul2025:15:31:11):  xrun -f full_adder_tb.list 
+s278(26Jul2025:15:49:56):  xrun -f add_subtract2bit_tb.list 
+s279(26Jul2025:15:50:33):  xrun -f add_subtract2bit_tb.list 
+s280(26Jul2025:15:52:27):  xrun -f add_subtract2bit_tb.list 
+s281(26Jul2025:15:59:25):  xrun -f add_subtract2bit_tb.list 
+s282(26Jul2025:16:01:29):  xrun -f add_subtract2bit_tb.list 
+s283(26Jul2025:16:04:49):  xrun -f add_subtract2bit_tb.list 
+s284(26Jul2025:16:06:53):  xrun -f add_subtract_tb.list 
+s285(26Jul2025:16:07:16):  xrun -f add_subtract_tb.list 
+s286(26Jul2025:16:07:43):  xrun -v2001 -f ../00_src/flist.f 
+s287(26Jul2025:16:07:43):  xrun -f brcomp_tb.list 
+s288(26Jul2025:16:08:49):  xrun -v2001 -f ../00_src/flist.f 
+s289(26Jul2025:16:08:50):  xrun -f brcomp_tb.list 
+s290(26Jul2025:20:25:02):  xrun -v2001 -f ../00_src/flist.f 
+s291(26Jul2025:20:25:03):  xrun -f decoder_5to32_tb.list 
+s292(26Jul2025:20:25:21):  xrun -v2001 -f ../00_src/flist.f 
+s293(26Jul2025:20:25:21):  xrun -f decoder_5to32_tb.list 
+s294(26Jul2025:20:30:29):  xrun -v2001 -f ../00_src/flist.f 
+s295(26Jul2025:20:30:29):  xrun -f decoder_5to32_tb.list 
+s296(26Jul2025:20:33:25):  xrun -v2001 -f ../00_src/flist.f 
+s297(26Jul2025:20:33:26):  xrun -f register_tb.list 
+s298(26Jul2025:20:35:51):  xrun -v2001 -f ../00_src/flist.f 
+s299(26Jul2025:20:35:52):  xrun -f register_tb.list 
+s300(26Jul2025:20:38:40):  xrun -v2001 -f ../00_src/flist.f 
+s301(26Jul2025:20:38:41):  xrun -f register_tb.list 
+s302(26Jul2025:20:45:27):  xrun -v2001 -f ../00_src/flist.f 
+s303(26Jul2025:20:45:27):  xrun -f register_tb.list 
+s304(26Jul2025:20:46:07):  xrun -v2001 -f ../00_src/flist.f 
+s305(26Jul2025:20:46:07):  xrun -f register_tb.list 
+s306(26Jul2025:22:02:20):  xrun -v2001 -f ../00_src/flist.f 
+s307(26Jul2025:22:02:20):  xrun -f register_tb.list 
+s308(26Jul2025:22:02:43):  xrun -v2001 -f ../00_src/flist.f 
+s309(26Jul2025:22:02:44):  xrun -f register_tb.list 
+s310(26Jul2025:22:25:19):  xrun -v2001 -f ../00_src/flist.f 
+s311(26Jul2025:22:25:20):  xrun -f register_tb.list 
+s312(26Jul2025:22:25:38):  xrun -v2001 -f ../00_src/flist.f 
+s313(26Jul2025:22:25:39):  xrun -f register_tb.list 
+s314(26Jul2025:22:26:42):  xrun -v2001 -f ../00_src/flist.f 
+s315(26Jul2025:22:26:42):  xrun -f register_tb.list 
+s316(26Jul2025:22:30:21):  xrun -v2001 -f ../00_src/flist.f 
+s317(26Jul2025:22:30:22):  xrun -f register_tb.list 
+s318(26Jul2025:22:31:37):  xrun -v2001 -f ../00_src/flist.f 
+s319(26Jul2025:22:31:37):  xrun -f register_tb.list 
+s320(26Jul2025:22:33:55):  xrun -v2001 -f ../00_src/flist.f 
+s321(26Jul2025:22:33:55):  xrun -f register_tb.list 
+s322(26Jul2025:22:34:53):  xrun -v2001 -f ../00_src/flist.f 
+s323(26Jul2025:22:34:53):  xrun -f register_tb.list 
+s324(26Jul2025:22:43:43):  xrun -v2001 -f ../00_src/flist.f 
+s325(26Jul2025:22:43:43):  xrun -f decoder_5to32_tb.list 
+s326(26Jul2025:22:45:34):  xrun -v2001 -f ../00_src/flist.f 
+s327(26Jul2025:22:45:34):  xrun -f decoder_5to32_tb.list 
+s328(26Jul2025:22:45:47):  xrun -v2001 -f ../00_src/flist.f 
+s329(26Jul2025:22:45:48):  xrun -f decoder_5to32_tb.list 
+s330(26Jul2025:22:45:56):  xrun -v2001 -f ../00_src/flist.f 
+s331(26Jul2025:22:45:57):  xrun -f decoder_5to32_tb.list 
+s332(26Jul2025:23:26:24):  xrun -v2001 -f ../00_src/flist.f 
+s333(26Jul2025:23:26:25):  xrun -f mux_32to1_tb.list 
+s334(26Jul2025:23:27:14):  xrun -v2001 -f ../00_src/flist.f 
+s335(26Jul2025:23:27:15):  xrun -f mux_32to1_tb.list 
+s336(26Jul2025:23:29:08):  xrun -v2001 -f ../00_src/flist.f 
+s337(26Jul2025:23:29:08):  xrun -f mux_32to1_tb.list 
+s338(26Jul2025:23:30:32):  xrun -v2001 -f ../00_src/flist.f 
+s339(26Jul2025:23:30:32):  xrun -f mux_32to1_tb.list 
+s340(26Jul2025:23:52:49):  xrun -v2001 -f ../00_src/flist.f 
+s341(26Jul2025:23:52:50):  xrun -f mux_32to1_tb.list 
+s342(26Jul2025:23:52:59):  xrun -v2001 -f ../00_src/flist.f 
+s343(26Jul2025:23:52:59):  xrun -f mux_32to1_tb.list 
+s344(26Jul2025:23:57:43):  xrun -v2001 -f ../00_src/flist.f 
+s345(26Jul2025:23:57:44):  xrun -f mux_32to1_tb.list 
+s346(27Jul2025:00:01:59):  xrun -v2001 -f ../00_src/flist.f 
+s347(27Jul2025:00:02:00):  xrun -f mux_32to1_tb.list 
+s348(27Jul2025:00:02:21):  xrun -v2001 -f ../00_src/flist.f 
+s349(27Jul2025:00:02:22):  xrun -f mux_32to1_tb.list 
+s350(27Jul2025:00:02:36):  xrun -v2001 -f ../00_src/flist.f 
+s351(27Jul2025:00:02:37):  xrun -f mux_32to1_tb.list 
+s352(27Jul2025:00:02:45):  xrun -v2001 -f ../00_src/flist.f 
+s353(27Jul2025:00:02:45):  xrun -f mux_32to1_tb.list 
+s354(27Jul2025:00:02:55):  xrun -v2001 -f ../00_src/flist.f 
+s355(27Jul2025:00:02:56):  xrun -f mux_32to1_tb.list 
+s356(27Jul2025:00:13:03):  xrun -v2001 -f ../00_src/flist.f 
+s357(27Jul2025:00:13:04):  xrun -f mux_32to1_tb.list 
+s358(27Jul2025:01:24:34):  xrun -v2001 -f ../00_src/flist.f 
+s359(27Jul2025:01:24:34):  xrun -f mux_32to1_tb.list 
+s360(27Jul2025:01:25:05):  xrun -v2001 -f ../00_src/flist.f 
+s361(27Jul2025:01:25:05):  xrun -f mux_32to1_tb.list 
+s362(27Jul2025:01:26:34):  xrun -v2001 -f ../00_src/flist.f 
+s363(27Jul2025:01:26:35):  xrun -f mux_32to1_tb.list 
+s364(27Jul2025:01:26:49):  xrun -v2001 -f ../00_src/flist.f 
+s365(27Jul2025:01:26:49):  xrun -f mux_32to1_tb.list 
+s366(27Jul2025:01:29:46):  xrun -v2001 -f ../00_src/flist.f 
+s367(27Jul2025:01:29:46):  xrun -f mux_32to1_tb.list 
+s368(27Jul2025:01:30:21):  xrun -v2001 -f ../00_src/flist.f 
+s369(27Jul2025:01:30:22):  xrun -f mux_32to1_tb.list 
+s370(27Jul2025:01:30:46):  xrun -v2001 -f ../00_src/flist.f 
+s371(27Jul2025:01:30:47):  xrun -f mux_32to1_tb.list 
+s372(27Jul2025:01:32:50):  xrun -v2001 -f ../00_src/flist.f 
+s373(27Jul2025:01:32:51):  xrun -f mux_32to1_tb.list 
+s374(27Jul2025:01:33:48):  xrun -v2001 -f ../00_src/flist.f 
+s375(27Jul2025:01:33:49):  xrun -f mux_32to1_tb.list 
+s376(27Jul2025:09:57:55):  xrun -v2001 -f ../00_src/flist.f 
+s377(27Jul2025:09:57:56):  xrun -f mux_32to1_tb.list 
+s378(27Jul2025:10:26:42):  xrun -v2001 -f ../00_src/flist.f 
+s379(27Jul2025:10:26:42):  xrun -f mux_32to1_tb.list 
+s380(27Jul2025:10:27:43):  xrun -v2001 -f ../00_src/flist.f 
+s381(27Jul2025:10:27:43):  xrun -f mux_32to1_tb.list 
+s382(27Jul2025:10:29:22):  xrun -hal -v2001 -f ../00_src/flist.f 
+s383(27Jul2025:10:29:22):  xrun -f brcomp_tb.list 
+s384(27Jul2025:10:31:29):  xrun -hal -v2001 -f ./brcomp_tb.list 
+s385(27Jul2025:10:40:02):  xrun -hal -v2001 -f ./brcomp_tb.list 
+s386(27Jul2025:10:40:22):  xrun -hal -v2001 -f ./brcomp_tb.list 
+s387(27Jul2025:10:45:06):  xrun -hal -v2001 -f ../00_src/flist.f 
+s388(27Jul2025:10:45:07):  xrun -f brcomp_tb.list 
+s389(27Jul2025:10:45:17):  xrun -hal -v2001 -f ./brcomp_tb.list 
+s390(27Jul2025:11:02:48):  xrun -v2001 -f ../00_src/flist.f 
+s391(27Jul2025:11:02:49):  xrun -f mux_32to1_tb.list 
+s392(27Jul2025:11:03:14):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s393(27Jul2025:11:23:39):  xrun -v2001 -f ../00_src/flist.f 
+s394(27Jul2025:11:23:39):  xrun -f mux_2to1_tb.list 
+s395(27Jul2025:11:24:09):  xrun -v2001 -f ../00_src/mux_2to1.v 
+s396(27Jul2025:11:24:09):  xrun -f mux_2to1_tb.list 
+s397(27Jul2025:11:31:38):  xrun -v2001 -f ../00_src/mux_2to1.v 
+s398(27Jul2025:11:31:39):  xrun -f mux_2to1_tb.list 
+s399(27Jul2025:11:53:48):  xrun -v2001 -f ../00_src/mux_2to1.v 
+s400(27Jul2025:11:53:48):  xrun -f mux_2to1_tb.list 
+s401(27Jul2025:12:19:29):  xrun -v2001 -f ../00_src/mux_2to1.v 
+s402(27Jul2025:12:19:30):  xrun -f mux_2to1_tb.list 
+s403(27Jul2025:12:19:57):  xrun -v2001 -f ../00_src/mux_2to1.v 
+s404(27Jul2025:12:19:57):  xrun -f mux_2to1_tb.list 
+s405(27Jul2025:12:20:10):  xrun -v2001 -f ../00_src/flist.f 
+s406(27Jul2025:12:20:10):  xrun -f mux_32to1_tb.list 
+s407(27Jul2025:12:22:30):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s408(27Jul2025:12:24:57):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s409(27Jul2025:12:25:37):  xrun -v2001 -f ../00_src/flist.f 
+s410(27Jul2025:12:25:37):  xrun -f mux_32to1_tb.list 
+s411(27Jul2025:12:29:40):  xrun -v2001 -f ../00_src/flist.f 
+s412(27Jul2025:12:29:41):  xrun -f mux_32to1_tb.list 
+s413(27Jul2025:12:32:51):  xrun -v2001 -f ../00_src/flist.f 
+s414(27Jul2025:12:32:51):  xrun -f mux_32to1_tb.list 
+s415(27Jul2025:12:35:12):  xrun -v2001 -f ../00_src/flist.f 
+s416(27Jul2025:12:35:12):  xrun -f mux_32to1_tb.list 
+s417(27Jul2025:14:50:03):  xrun -hal -v2001 -f ../00_src/regfile.v 
+s418(27Jul2025:14:50:40):  xrun -hal -v2001 -f ../00_src/regfile.v 
+s419(27Jul2025:14:54:25):  xrun -hal -v2001 -f ./regfile_tb.list 
+s420(27Jul2025:14:54:42):  xrun -hal -v2001 -f ./regfile_tb.list 
+s421(27Jul2025:14:55:17):  xrun -hal -v2001 -f ./regfile_tb.list 
+s422(27Jul2025:15:22:14):  xrun -v2001 -f ../00_src/flist.f 
+s423(27Jul2025:15:22:15):  xrun -f decoder_5to32_tb.list 
+s424(27Jul2025:15:35:21):  xrun -hal -v2001 -f ./regfile_tb.list 
+s425(27Jul2025:15:46:53):  xrun -hal -v2001 -f ./regfile_tb.list 
+s426(27Jul2025:15:47:33):  xrun -hal -v2001 -f ./regfile_tb.list 
+s427(27Jul2025:15:47:40):  xrun -hal -v2001 -f ./regfile_tb.list 
+s428(27Jul2025:15:58:47):  xrun -hal -v2001 -f ./regfile_tb.list 
+s429(27Jul2025:16:00:43):  xrun -hal -v2001 -f ./regfile_tb.list 
+s430(27Jul2025:16:02:47):  xrun -hal -v2001 -f ./regfile_tb.list 
+s431(27Jul2025:16:03:05):  xrun -hal -v2001 -f ./regfile_tb.list 
+s432(27Jul2025:16:56:15):  xrun -v2001 -f ../00_src/flist.f 
+s433(27Jul2025:16:56:16):  xrun -f decoder_5to32_tb.list 
+s434(27Jul2025:16:56:57):  xrun -v2001 -f ../00_src/flist.f 
+s435(27Jul2025:16:56:58):  xrun -f decoder_5to32_tb.list 
+s436(27Jul2025:16:57:09):  xrun -v2001 -f ../00_src/flist.f 
+s437(27Jul2025:16:57:10):  xrun -f decoder_5to32_tb.list 
+s438(27Jul2025:16:58:34):  xrun -hal -sv -f ../00_src/decoder_5to32.sv 
+s439(27Jul2025:17:16:09):  xrun -hal -sv -f ../00_src/decoder_5to32.v 
+s440(27Jul2025:17:16:46):  xrun -hal -sv -f ../00_src/decoder_5to32.v 
+s441(27Jul2025:17:16:55):  xrun -v2001 -f ../00_src/flist.f 
+s442(27Jul2025:17:16:56):  xrun -f decoder_5to32_tb.list 
+s443(27Jul2025:17:17:07):  xrun -v2001 -f ../00_src/flist.f 
+s444(27Jul2025:17:17:08):  xrun -f decoder_5to32_tb.list 
+s445(27Jul2025:17:17:34):  xrun -v2001 -f ../00_src/flist.f 
+s446(27Jul2025:17:17:35):  xrun -f decoder_5to32_tb.list 
+s447(27Jul2025:17:17:49):  xrun -v2001 -f ../00_src/flist.f 
+s448(27Jul2025:17:17:50):  xrun -f decoder_5to32_tb.list 
+s449(27Jul2025:17:18:18):  xrun -hal -v2001 -f ../00_src/decoder_5to32.v 
+s450(27Jul2025:17:35:40):  xrun -hal -v2001 -f ../00_src/regfile.sv 
+s451(27Jul2025:17:36:41):  xrun -hal -v2001 -f ../00_src/regfile.v 
+s452(27Jul2025:17:41:30):  xrun -hal -v2001 -f ./regfile_tb.list 
+s453(27Jul2025:17:42:42):  xrun -hal -v2001 -f ./regfile_tb.list 
+s454(27Jul2025:17:44:42):  xrun -hal -v2001 -f ./regfile_tb.list 
+s455(27Jul2025:17:53:28):  xrun -hal -v2001 -f ./regfile_tb.list 
+s456(27Jul2025:17:58:13):  xrun -hal -v2001 -f ./regfile_tb.list 
+s457(27Jul2025:18:03:49):  xrun -hal -v2001 -f ./regfile_tb.list 
+s458(27Jul2025:18:20:33):  xrun -hal -v2001 -f ./regfile_tb.list 
+s459(28Jul2025:23:24:38):  xrun -hal -v2001 -f ./register_32bit_tb.list 
+s460(28Jul2025:23:24:49):  xrun -hal -v2001 -f ./register_32bit_tb.list 
+s461(28Jul2025:23:26:42):  xrun -hal -v2001 -f ./register_1bit_tb.list 
+s462(28Jul2025:23:26:53):  xrun -hal -v2001 -f ./register_1bit_tb.list 
+s463(28Jul2025:23:53:29):  xrun -hal -v2001 -f ./mux_2to1_tb.list 
+s464(28Jul2025:23:55:34):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s465(28Jul2025:23:56:15):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s466(28Jul2025:23:57:40):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s467(29Jul2025:00:14:10):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s468(29Jul2025:00:17:34):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s469(29Jul2025:00:17:58):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s470(29Jul2025:00:20:53):  xrun -hal -v2001 -f ./mux_32to1_tb.list 
+s471(29Jul2025:00:22:16):  xrun -hal -v2001 -f ./regfile_tb.list 
+s472(29Jul2025:00:23:35):  xrun -hal -v2001 -f ./regfile_tb.list 
+s473(29Jul2025:00:27:03):  xrun -v2001 -f ../00_src/flist.f 
+s474(29Jul2025:00:27:03):  xrun -f mux_32to1_tb.list 
+s475(29Jul2025:00:27:24):  xrun -v2001 -f ../00_src/flist.f 
+s476(29Jul2025:00:27:24):  xrun -f mux_32to1_tb.list 
+s477(29Jul2025:00:32:14):  xrun -hal -v2001 -f ./regfile_tb.list 

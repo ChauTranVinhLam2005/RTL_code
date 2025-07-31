@@ -1,0 +1,2 @@
+../00_src/full_adder.v
+../10_tb/full_adder_tb.v

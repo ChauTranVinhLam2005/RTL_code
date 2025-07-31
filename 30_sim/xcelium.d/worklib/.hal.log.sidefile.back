@@ -1,0 +1,26 @@
+halsynth: Loading design snapshot....
+halsynth: *W,MULTOP: The snapshot contains multiple top-level modules. Use the -TOP option to specify the hierarchy to be processed.
+halsynth: Traversing design hierarchy....
+halsynth: *M,_SCOPE: regfile.r0
+halsynth: *W,OUTINP (../00_src/register_32bit.v,6|0): Primary output port q_o of module register_32bit may be driven outside the module.This port will be treated as an inout port.
+@:q_o 
+halsynth: *M,_SCOPE: regfile
+halsynth: *W,LOOPTM (../00_src/regfile.v,22|0): Operation between a loop variable and a non-constant value is repeated more than 10 times.
+halsynth: (../00_src/regfile.v,23): Source HDL information for the error/warning mentioned above.
+halsynth: *W,UNDRIV (../00_src/regfile.v,8|0): Primary output/inout 'rs1_data_o'  is not driven in the module 'regfile'.
+@:rs1_data_o 
+halsynth: *W,UNDRIV (../00_src/regfile.v,9|0): Primary output/inout 'rs2_data_o'  is not driven in the module 'regfile'.
+@:rs2_data_o 
+halsynth: *W,MULWIR (../00_src/regfile.v,12|0): Module 'regfile' has wire 'q_o[0]' multi-driven.
+halsynth: (../00_src/regfile.v,17|0): Source HDL information for the error/warning mentioned above.
+@:q_o 
+~:CLKOUT
+~:CLKSRD
+~:COMBLP
+~:INPOUT
+~:MUDREG
+~:MULWIR
+~:UNDRIV
+halsynth: *M,_SCOPE: mux_32to1
+halsynth: Total errors   = 0.
+halsynth: Total warnings = 6.

@@ -1,8 +1,0 @@
-//
-// File created by:  xrun
-// Do not modify this file
-//
--sv
-../00_src/ic74138.sv
-ic74138_tb.sv
--gui

@@ -1,0 +1,21 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-XLMODE
+./xcelium.d/run.lnx8664.20.09.d
+-RUNMODE
+-v2001
+../00_src/regfile.v
+../00_src/decoder_5to32.v
+../00_src/mux_32to1.v
+-CDSLIB
+./xcelium.d/run.lnx8664.20.09.d/cdsrun.lib
+-HDLVAR
+./xcelium.d/run.lnx8664.20.09.d/hdlrun.var
+-MESSAGES
+-UPDATE
+-MIXEDLANG
+-XLLIBSTORE
+./xcelium.d/run.lnx8664.20.09.d/xllibs
+-ALLOWUNBOUND
